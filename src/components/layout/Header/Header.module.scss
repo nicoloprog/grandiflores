@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+.component {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  min-height: 150px;
+  justify-content: space-between;
+
+  .link {
+    color: black;
+    text-decoration: none;
+    .mainLogo {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      gap: 41%;
+      top: 0px;
+      left: 0px;
+      padding: 50px 0 25px 85px;
+      width: 100%;
+      min-height: 120px;
+      z-index: 100000;
+      @media screen and (max-width: 1600px) {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 65%;
+        top: 0px;
+        left: 0px;
+        padding: 50px 0 25px 85px;
+        width: 100%;
+        min-height: 120px;
+        z-index: 100000;
+      }
+
+      filter: saturate(170%);
+      background-color: rgba(16, 16, 16, 0.41);
+      box-shadow: 0px 5px 20px #727272;
+      .box {
+        display: flex;
+        height: 155px;
+        align-items: center;
+        width: 600px;
+        font-size: 1.5rem;
+        margin-top: -25px;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.438);
+        box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
+      }
+
+      .avatar {
+        background-image: url(../../../assets/images/phone.png);
+        background-position: center;
+        background-size: 45px;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 60px;
+        border-radius: 55px;
+        margin: 0 10px 0 40px;
+      }
+
+      .content {
+        padding: 10% 4%;
+        margin: 20px 0 0 0;
+        color: #343454;
+        p {
+          cursor: pointer;
+          margin-top: 5px;
+        }
+      }
+
+      @media only screen and (max-width: 400px) {
+        .box {
+          margin: 50% auto;
+          height: 100px;
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 250px) {
+        .box {
+          margin: 50% auto;
+          height: 100px;
+          width: 100%;
+        }
+        .content {
+          font-size: 1rem;
+          text-align: center;
+        }
+      }
+
+      @media only screen and (max-width: 180px) {
+        .content {
+          letter-spacing: 0.1rem;
+          margin: 15px auto;
+        }
+        .avatar {
+          display: none;
+        }
+        .box {
+          border-radius: 0;
+          height: auto;
+        }
+      }
+      // font-family: "M PLUS Rounded 1c", sans-serif;
+      // // font-family: "Lora", serif;
+      // margin: 0 0 7px 5px;
+      // font-size: 40px;
+      // font-weight: 200;
+      // @media screen and (min-width: 450px) {
+      //   font-family: "M PLUS Rounded 1c", sans-serif;
+      //   // font-family: "Lora", serif;
+      //   margin-left: 5px;
+      //   font-size: 48px;
+      //   font-weight: 200;
+      // }
+    }
+  }
+}

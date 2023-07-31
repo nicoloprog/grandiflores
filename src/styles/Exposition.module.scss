@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+.component {
+  overflow-x: hidden;
+
+  .liste2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    font-size: 15.5px;
+    font-weight: 200;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    @media screen and (min-width: 450px) {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: auto;
+      font-size: 15.5px;
+      font-weight: 200;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+    }
+  }
+}
+
+.more {
+  aspect-ratio: 1.5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  gap: 1em;
+}
+
+.titre2 {
+  font-size: 13px;
+  color: rgb(93, 93, 93);
+  margin-top: 10px;
+  margin-bottom: 100px;
+}

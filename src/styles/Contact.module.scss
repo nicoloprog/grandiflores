@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+
+.component {
+  overflow-x: hidden;
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    @media screen and (min-width: 450px) {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 39%;
+      height: 100%;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+    }
+
+    .imageLink {
+      aspect-ratio: 2;
+      position: relative;
+      display: flex;
+      text-align: center;
+      border: 3px solid black;
+      @media screen and (min-width: 450px) {
+        aspect-ratio: 2;
+        position: relative;
+        display: flex;
+        text-align: center;
+        border: 7px solid black;
+      }
+
+      .playLink {
+        position: absolute;
+        z-index: 10;
+        margin: auto;
+        opacity: 80%;
+        max-width: 10%;
+        max-height: 20%;
+      }
+      .image {
+        position: relative;
+        z-index: 0;
+      }
+    }
+    .textLink p {
+      display: flex;
+      width: 100%;
+      padding: 50px 0 0 0;
+      font-size: 10px;
+      @media screen and (min-width: 450px) {
+        justify-content: center;
+        font-size: 25px;
+      }
+    }
+  }
+}

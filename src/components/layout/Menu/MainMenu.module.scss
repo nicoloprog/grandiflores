@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
+.component {
+  position: relative;
+  .overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+  }
+
+  .menu {
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    width: 220px;
+    min-height: 300px;
+    background: rgba(33, 6, 6, 0.713);
+    padding: 80px 40px 0 40px;
+    z-index: 1000;
+    margin: 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "M PLUS Rounded 2c", sans-serif;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    transition: 400ms;
+
+    @media screen and (min-width: 450px) {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      top: 300px;
+      right: 0px;
+      width: 300px;
+      min-height: 400px;
+      background: rgba(255, 255, 255, 0.639);
+      padding: 10px 40px 90px 22px;
+      z-index: 100;
+      border: 1px solid white;
+      margin: 0;
+      border-radius: 15px 0px 0px 15px;
+      text-decoration: none;
+      font-size: 40px;
+      color: rgb(101, 101, 101);
+      transition: 400ms;
+    }
+
+    .logo2 {
+      animation: float 3.5s ease-in-out infinite;
+      margin-top: 5px;
+      border-radius: 50%;
+      position: relative;
+      filter: brightness(0.75);
+    }
+
+    @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-7px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+    }
+    .shadow {
+      background: #44444446;
+      margin: 5px 0 0 5px;
+      z-index: -1;
+      width: 28px;
+      height: 8px;
+      top: 70%;
+      animation: expand 3.5s ease-in-out infinite;
+      position: absolute;
+      border-radius: 50%;
+    }
+    @keyframes expand {
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(0.65);
+      }
+    }
+
+    &.hiddenMenu {
+      right: -295px;
+      // right: 100px;
+    }
+    .option {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-size: 33px;
+        color: rgb(57, 57, 57);
+        margin-top: 40px;
+        text-decoration: none;
+        // font-family: "Lora", serif;
+        &:hover {
+          color: rgb(149, 149, 149);
+        }
+      }
+    }
+  }
+
+  .closedMenu {
+    cursor: pointer;
+    margin: auto;
+    &:hover {
+      padding: 5px 5px 0px 5px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+  }
+
+  .exitMenu {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 16px;
+    font-size: 45px;
+    transition: 400ms;
+    &:hover {
+      color: rgb(170, 170, 170);
+    }
+  }
+}

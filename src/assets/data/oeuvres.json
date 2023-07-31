@@ -1,0 +1,46 @@
+{
+  "oeuvres": [
+    {
+      "id": 0,
+      "titre": "Homéopathie",
+      "imagePrincipal": "pipette.png",
+      "prix": 150
+    },
+    {
+      "id": 1,
+      "titre": "Gemmothérapie",
+      "imagePrincipal": "berries.png",
+      "prix": 150
+    },
+    {
+      "id": 2,
+      "titre": "Phytothérapie",
+      "imagePrincipal": "medicine.png",
+      "prix": 150
+    },
+    {
+      "id": 3,
+      "titre": "Oligothérapie",
+      "imagePrincipal": "mine-cart.png",
+      "prix": 150
+    },
+    {
+      "id": 4,
+      "titre": "Supports Nutritifs",
+      "imagePrincipal": "salad.png",
+      "prix": 150
+    },
+    {
+      "id": 5,
+      "titre": "Remèdes floraux de bach",
+      "imagePrincipal": "bolle.png",
+      "prix": 150
+    },
+    {
+      "id": 6,
+      "titre": "Organothérapie",
+      "imagePrincipal": "endocrine.png",
+      "prix": 150
+    }
+  ]
+}
