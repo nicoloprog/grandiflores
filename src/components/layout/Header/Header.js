@@ -9,12 +9,13 @@ export default function Header(props) {
       <div className={styles.sectionLogo}>
         <div className={styles.link}>
           <div className={styles.mainLogo}>
-            <Image
-              className={styles.logo}
-              src={require("../../../assets/images/mainLogo.png")}
-              style={{ width: "470px", height: "100px" }}
-              alt="Picture of Grandiflores"
-            />
+            <div className={styles.mainImage}>
+              <Image
+                className={styles.logo}
+                src={require("../../../assets/images/mainLogo.png")}
+                alt="Picture of Grandiflores"
+              />
+            </div>
             <div className={styles.box}>
               <div className={styles.avatar}></div>
               <div className={styles.content}>

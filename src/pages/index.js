@@ -10,7 +10,6 @@ import MainMenu from "../components/layout/Menu/MainMenu";
 import Header from "../components/layout/Header/Header";
 import MainLayout from "../components/layout/MainLayout/MainLayout";
 import Carousel from "../components/base/Carousel/Carousel";
-
 import Link from "next/link";
 import cx from "classnames";
 
@@ -66,20 +65,6 @@ export default function Home() {
             <div className={styles.arrow}>
               <span></span>
             </div>
-            {/* <ul>
-              <li>
-                <Link href="/">Expositions</Link>
-              </li>
-              <li>
-                <Link href="/publication">Publications</Link>
-              </li>
-              <li>
-                <Link href="/publication">CV</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact</Link>
-              </li>
-            </ul> */}
           </div>
         </div>
         <div className={styles.space}>
