@@ -18,8 +18,11 @@
       top: 0px;
       left: 0px;
       width: 100%;
-      min-height: 150px;
+      max-height: 150px;
       z-index: 100000;
+      filter: saturate(170%);
+      background-color: rgba(16, 16, 16, 0.41);
+      box-shadow: 0px 5px 20px #727272;
       @media screen and (max-width: 2048px) {
         position: absolute;
         display: flex;
@@ -46,7 +49,7 @@
         position: absolute;
         display: flex;
         flex-direction: row;
-        gap: clamp(0px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 50px);
+        gap: clamp(0px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 15px);
         top: 0px;
         left: 0px;
         width: 100%;
@@ -60,21 +63,18 @@
         padding: clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 45px) 0
           25px clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
         @media screen and (max-width: 450px) {
-          width: 140px;
-          padding: 50px 40px 40px
+          width: 130px;
+          padding: 44px 20px 40px
             clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
-          height: 65px;
+          height: 45px;
           background: linear-gradient(
             to right,
-            #696969,
+            #393939,
             rgba(242, 242, 242, 0)
           );
         }
       }
 
-      filter: saturate(170%);
-      background-color: rgba(16, 16, 16, 0.41);
-      box-shadow: 0px 5px 20px #727272;
       .box {
         display: flex;
         height: 155px;
@@ -87,12 +87,12 @@
         box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
         @media screen and (max-width: 450px) {
           display: flex;
-          height: 70px;
+          height: 80px;
           align-items: center;
-          width: 185px;
-          font-size: 0.5rem;
-          margin-top: 25px;
-          border-radius: 18px;
+          width: 215px;
+          font-size: 0.68rem;
+          margin-top: 27px;
+          border-radius: 15px;
           background-color: rgba(255, 255, 255, 0.438);
           box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
         }
@@ -110,12 +110,12 @@
         @media screen and (max-width: 450px) {
           background-image: url(../../../assets/images/phone.png);
           background-position: center;
-          background-size: 29px;
+          background-size: 18px;
           background-repeat: no-repeat;
-          height: 60px;
-          width: 60px;
+          height: 35px;
+          width: 35px;
           border-radius: 55px;
-          margin: 5px 10px 0 15px;
+          margin: 0px 2.5px 0 8px;
         }
       }
 
@@ -124,8 +124,7 @@
         margin: 20px 0 0 0;
         color: #343454;
         @media screen and (max-width: 450px) {
-          padding: 5% 2%;
-          margin: 12px 0 0 0;
+          margin: 10px 5px 0 0;
         }
         p {
           cursor: pointer;

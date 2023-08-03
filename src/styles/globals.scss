@@ -1,8 +1,9 @@
 body,
 html {
-  min-width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+  max-width: 100%;
+  max-height: 100vh;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
   margin: 0px auto 25px auto;
   background: #dddddd;
   color: #000000;

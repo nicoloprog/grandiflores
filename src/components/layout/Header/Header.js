@@ -19,8 +19,9 @@ export default function Header(props) {
             <div className={styles.box}>
               <div className={styles.avatar}></div>
               <div className={styles.content}>
-                Nous vous suggèrons de laissez un message au numéro ou au email
-                suivant :
+                Laissez un message au numéro ou au email suivant :
+                {/* Laissez une message au numéro ou au email suivant et il nous
+                fera un plaisir de répondre dans les plus bref délais : */}
                 <p>
                   <strong>• 450 560-2886</strong> <br></br>
                   <strong>• homeovertnature@gmail.com</strong>

@@ -68,11 +68,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.space}>
-          <Image
-            src={require(`../assets/images/background1.png`)}
-            alt="Picture of the author"
-            style={{ width: "100%", height: "90vh" }}
-          />
+          <div className={styles.backgroundSpace}>
+            <Image
+              src={require(`../assets/images/background1.png`)}
+              alt="Picture of the author"
+              style={{ width: "100%", height: "90vh" }}
+            />
+          </div>
           <div className={styles.blur2}></div>
         </div>
         <div className={styles.services}>

@@ -15,12 +15,9 @@ $shadow: #2b393d;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
 
     Image {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-size: auto;
     }
     z-index: 3;
   }
@@ -47,12 +44,34 @@ $shadow: #2b393d;
       text-align: center;
       z-index: 0;
       overflow: hidden;
+
+      @media screen and (max-width: 450px) {
+        border-radius: 1rem;
+        filter: drop-shadow(0 5px 10px 0 #d9d9d9);
+        width: 18.5rem;
+        height: 27rem;
+        margin: 10px auto 0px auto;
+        background-color: #c9c9c9b4;
+        color: #343454;
+        padding: 1.5rem;
+        font-size: 0.9rem;
+        position: relative;
+        text-align: center;
+        z-index: 0;
+        overflow: hidden;
+      }
     }
 
     .welcome p {
       font-size: smaller;
       padding: 1rem 0;
       margin: -25px 55px 0 55px;
+
+      @media screen and (max-width: 450px) {
+        font-size: smaller;
+        padding: 1rem 0;
+        margin: -25px 25px 0 25px;
+      }
     }
 
     .welcome::before {
@@ -87,6 +106,9 @@ $shadow: #2b393d;
       box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
       -moz-box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
       -webkit-box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
+      @media screen and (max-width: 450px) {
+        margin: 25px auto 0 auto;
+      }
     }
 
     .buttonBlue span {
@@ -177,6 +199,13 @@ $shadow: #2b393d;
       left: 50%;
       transform: rotate(90deg);
       cursor: pointer;
+      @media screen and (max-width: 450px) {
+        position: absolute;
+        top: 95%;
+        left: 65%;
+        transform: rotate(90deg);
+        cursor: pointer;
+      }
     }
 
     .arrow span {

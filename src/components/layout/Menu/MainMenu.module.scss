@@ -28,7 +28,7 @@
     color: rgb(255, 255, 255);
     transition: 400ms;
 
-    @media screen and (min-width: 450px) {
+    @media screen and (max-width: 450px) {
       position: fixed;
       display: flex;
       flex-direction: column;
