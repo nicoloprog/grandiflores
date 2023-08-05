@@ -91,6 +91,19 @@ $shadow: #2b393d;
     }
 
     .welcome::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -101.5rem;
+      left: 93rem;
+      background: linear-gradient(-90deg, #7294b2, #325d80);
+      min-height: 3200px;
+      min-width: 100px;
+      border-radius: 32rem;
+      transform: scale(1.5);
+      transform-origin: 50% 50%;
+      transition: transform 0.3s ease-out;
+      transform: rotate(90deg);
       @media screen and (max-width: 2048px) {
         content: "";
         position: absolute;
@@ -110,7 +123,7 @@ $shadow: #2b393d;
         content: "";
         position: absolute;
         z-index: -1;
-        top: -15rem;
+        top: -16.2rem;
         left: 10rem;
         background: linear-gradient(-90deg, #81a8cb, #4477a1);
         min-height: 100%;
