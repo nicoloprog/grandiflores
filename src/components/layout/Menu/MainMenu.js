@@ -30,14 +30,7 @@ export default function MainMenu(props) {
           <div className={styles.shadow}></div>
         </span>
         <div className={styles.option}>
-          <Link href="/">
-            ❖
-            {/* <Image
-              src={require(`../../../assets/images/montagne.png`)}
-              alt="Picture of the author"
-              style={{ width: "30px", height: "30px" }}
-            /> */}
-          </Link>
+          <Link href="/">❖</Link>
           <Link href="/publication">❖</Link>
           <Link href="/publication">❖</Link>
           <Link href="/contact">❖</Link>

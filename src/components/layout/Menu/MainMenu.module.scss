@@ -39,9 +39,9 @@
     @media screen and (max-width: 450px) {
       top: 200px;
       right: 0px;
-      width: 300px;
-      min-height: 300px;
-      padding: 15px 45px 90px 28px;
+      width: 250px;
+      min-height: 375px;
+      padding: 15px 45px 40px 48px;
     }
 
     .logo2 {
@@ -52,7 +52,7 @@
       filter: brightness(0.75);
 
       @media screen and (max-width: 450px) {
-        margin: 15px 0 0 5px;
+        margin: 5px 0 0 -12.5px;
       }
     }
 
@@ -79,7 +79,7 @@
       border-radius: 50%;
 
       @media screen and (max-width: 450px) {
-        margin: 8px 0 0 11.5px;
+        margin: 8px 0 0 -5px;
       }
     }
     @keyframes expand {
