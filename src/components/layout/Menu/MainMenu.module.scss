@@ -19,7 +19,7 @@
     width: 330px;
     min-height: 400px;
     background: rgba(255, 255, 255, 0.639);
-    padding: 10px 40px 90px 35px;
+    padding: 25px 40px 90px 35px;
     z-index: 100;
     border: 1px solid #4444448d;
     margin: 0;
@@ -52,7 +52,7 @@
       filter: brightness(0.75);
 
       @media screen and (max-width: 450px) {
-        margin: 15px 0 0 15px;
+        margin: 15px 0 0 5px;
       }
     }
 
