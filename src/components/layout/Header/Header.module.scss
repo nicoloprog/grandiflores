@@ -14,87 +14,82 @@
       position: absolute;
       display: flex;
       flex-direction: row;
-      gap: 66.3%;
+      gap: 68.5%;
       top: 0px;
       left: 0px;
       width: 100%;
-      max-height: 150px;
+      max-height: 175px;
       z-index: 100000;
       filter: saturate(170%);
-      background-color: rgba(16, 16, 16, 0.41);
+      background-color: rgba(5, 8, 23, 0.41);
       box-shadow: 0px 5px 20px #727272;
+
       @media screen and (max-width: 2048px) {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        gap: clamp(750px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 880px);
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        max-height: 205px;
-        z-index: 100000;
+        gap: clamp(750px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 1025px);
+        max-height: 175px;
       }
       @media screen and (max-width: 1750px) {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
         gap: clamp(350px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 580px);
-        top: 0px;
-        left: 0px;
-        width: 100%;
         max-height: 205px;
-        z-index: 100000;
       }
       @media screen and (max-width: 450px) {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
         gap: clamp(0px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 15px);
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        max-height: 120px;
-        z-index: 100000;
+        max-height: 110px;
         overflow-x: hidden;
       }
 
       .mainImage img {
-        width: clamp(25px, calc(9.375rem + ((1vw - 2.5px) * 49.2308)), 450px);
-        padding: clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 45px) 0
-          25px clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+        width: 350px;
+        padding: 40px 20px 40px
+          clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+        height: 95px;
+        background: linear-gradient(
+          to right,
+          rgba(0, 39, 91, 0.295),
+          rgba(0, 40, 91, 0)
+        );
+
+        @media screen and (max-width: 2048px) {
+          width: 325px;
+          padding: 50px 20px 55px
+            clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+          height: 70px;
+        }
+
         @media screen and (max-width: 450px) {
           width: 130px;
-          padding: 44px 20px 40px
+          padding: 30px 20px 40px
             clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
           height: 45px;
-          background: linear-gradient(
-            to right,
-            #393939,
-            rgba(242, 242, 242, 0)
-          );
         }
       }
 
       .box {
         display: flex;
-        height: 155px;
+        height: 145px;
         align-items: center;
+        height: 145px;
         width: 600px;
-        font-size: 1.5rem;
-        margin-top: 9.5px;
-        border-radius: 25px;
+        font-size: 1.52rem;
+        margin-top: 15px;
+        border-radius: 15px;
         background-color: rgba(255, 255, 255, 0.438);
         box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
+
+        @media screen and (max-width: 2048px) {
+          height: 145px;
+          width: 560px;
+          font-size: 1.52rem;
+          margin-top: 15px;
+          border-radius: 15px;
+        }
+
         @media screen and (max-width: 450px) {
-          display: flex;
-          height: 80px;
-          align-items: center;
+          height: 78px;
           width: 215px;
           font-size: 0.68rem;
-          margin-top: 27px;
+          margin-top: 17px;
           border-radius: 15px;
-          background-color: rgba(255, 255, 255, 0.438);
-          box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
         }
       }
 

@@ -27,15 +27,23 @@ $shadow: #2b393d;
     background: linear-gradient(to top, #000000, rgba(242, 242, 242, 0));
     width: 100%;
     height: 80.5vh;
-    margin-top: 35px;
+    margin-top: 155px;
     z-index: 4;
+
+    @media screen and (max-width: 2048px) {
+      margin-top: 95px;
+    }
+
+    @media screen and (max-width: 450px) {
+      margin-top: 75px;
+    }
 
     .welcome {
       border-radius: 1rem;
       filter: drop-shadow(0 5px 10px 0 #d9d9d9);
       width: 190.5rem;
       height: 36rem;
-      margin: 100px auto 0px auto;
+      margin: 0px auto 0px auto;
       background-color: #c9c9c9b4;
       color: #343454;
       padding: 1.5rem;
@@ -45,14 +53,22 @@ $shadow: #2b393d;
       z-index: 0;
       overflow: hidden;
 
+      @media screen and (max-width: 2048px) {
+        width: 100.5rem;
+        height: 29rem;
+        margin: 10px auto 0px auto;
+        padding: 1.5rem;
+        font-size: 1.85rem;
+        position: relative;
+        text-align: center;
+        z-index: 0;
+        overflow: hidden;
+      }
+
       @media screen and (max-width: 450px) {
-        border-radius: 1rem;
-        filter: drop-shadow(0 5px 10px 0 #d9d9d9);
         width: 18.5rem;
         height: 27rem;
-        margin: 10px auto 0px auto;
-        background-color: #c9c9c9b4;
-        color: #343454;
+        margin: -60px auto 0px auto;
         padding: 1.5rem;
         font-size: 0.9rem;
         position: relative;
@@ -68,25 +84,43 @@ $shadow: #2b393d;
       margin: -25px 55px 0 55px;
 
       @media screen and (max-width: 450px) {
-        font-size: smaller;
+        font-size: 12.5px;
         padding: 1rem 0;
         margin: -25px 25px 0 25px;
       }
     }
 
     .welcome::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: -1rem;
-      right: -1rem;
-      background: linear-gradient(-90deg, #81a8cb, #4477a1);
-      height: 40rem;
-      width: 1.5rem;
-      border-radius: 32rem;
-      transform: scale(1.5);
-      transform-origin: 50% 50%;
-      transition: transform 0.3s ease-out;
+      @media screen and (max-width: 2048px) {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -78.5rem;
+        left: 53rem;
+        background: linear-gradient(-90deg, #7294b2, #325d80);
+        min-height: 2500px;
+        min-width: 60px;
+        border-radius: 32rem;
+        transform: scale(1.5);
+        transform-origin: 50% 50%;
+        transition: transform 0.3s ease-out;
+        transform: rotate(90deg);
+      }
+      @media screen and (max-width: 450px) {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -15rem;
+        left: 10rem;
+        background: linear-gradient(-90deg, #81a8cb, #4477a1);
+        min-height: 100%;
+        min-width: 10%;
+        border-radius: 32rem;
+        transform: scale(1.5);
+        transform-origin: 50% 50%;
+        transition: transform 0.3s ease-out;
+        transform: rotate(90deg);
+      }
     }
 
     .buttonBlue {
@@ -106,8 +140,15 @@ $shadow: #2b393d;
       box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
       -moz-box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
       -webkit-box-shadow: 0 0 0.05em rgba(0, 0, 0, 0.4);
+
+      @media screen and (max-width: 2048px) {
+        margin: 30px auto 0 auto;
+        font: bold 0.75em "Trebuchet MS", Arial, Helvetica;
+      }
+
       @media screen and (max-width: 450px) {
         margin: 25px auto 0 auto;
+        font: bold 1.1em "Trebuchet MS", Arial, Helvetica;
       }
     }
 
@@ -164,28 +205,28 @@ $shadow: #2b393d;
     }
 
     .buttonBlue {
-      background: #4477a1;
+      background: #cf7022;
       background: -webkit-gradient(
         linear,
         left top,
         left bottom,
-        from(#81a8cb),
-        to(#4477a1)
+        from(#cba281),
+        to(#cf7022)
       );
       background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1);
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
     }
 
     .buttonBlue:hover {
-      background: #81a8cb;
+      background: #d28342;
       background: -webkit-gradient(
         linear,
         left top,
         left bottom,
-        from(#4477a1),
-        to(#81a8cb)
+        from(#d1b094),
+        to(#ce7730)
       );
-      background: -moz-linear-gradient(-90deg, #4477a1, #81a8cb);
+      background: -moz-linear-gradient(-90deg, #d1b094, #ce7730);
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1', endColorstr='#81a8cb');
     }
 
@@ -195,16 +236,19 @@ $shadow: #2b393d;
 
     .arrow {
       position: absolute;
-      top: 88%;
+      top: 80%;
       left: 50%;
       transform: rotate(90deg);
       cursor: pointer;
+
+      @media screen and (max-width: 2048px) {
+        top: 87%;
+        left: 52.5%;
+      }
+
       @media screen and (max-width: 450px) {
-        position: absolute;
         top: 95%;
         left: 65%;
-        transform: rotate(90deg);
-        cursor: pointer;
       }
     }
 
@@ -232,50 +276,6 @@ $shadow: #2b393d;
         transform: rotate(-45deg) translate(-50px, 50px);
       }
     }
-    // ul {
-    //   position: absolute;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   gap: 60px;
-    //   border: 0.15px solid rgba(197, 197, 197, 0.79);
-    //   border-radius: 25px;
-    //   font-family: "Inter", sans-serif, -apple-system, ui-sans-serif, system-ui,
-    //     blinkmacsystemfont, sego ui, roboto, helvetica neue, arial, noto sans,
-    //     sans-serif, monospace;
-    //   font-size: 1.5rem;
-    //   font-weight: 400;
-    //   position: absolute;
-    //   list-style-type: none;
-    //   margin: 0;
-    //   padding: 0;
-    //   overflow: hidden;
-    //   background-color: #1a1b1fd2;
-    //   opacity: 75%;
-    //   width: 22%;
-    //   height: 50px;
-    //   left: 40%;
-    //   top: 5%;
-    //   z-index: 1000;
-    // }
-
-    // li {
-    //   float: left;
-    //   &:hover {
-    //     padding: 15px 0;
-    //     background: linear-gradient(to top, #b0b0b092, rgba(242, 242, 242, 0));
-    //   }
-    // }
-
-    // a {
-    //   gap: 15px;
-    //   color: rgb(217, 217, 217);
-    //   text-decoration: none;
-    //   width: 25px;
-    //   height: 25px;
-    //   opacity: 100%;
-    //   padding: 14px 16px;
-    // }
   }
 
   .blur2 {
@@ -310,6 +310,21 @@ $shadow: #2b393d;
         font-size: 50px;
         color: whitesmoke;
         margin-top: 50px;
+        @media screen and (max-width: 450px) {
+          font-size: 28px;
+        }
+      }
+      .description {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 900;
+        width: 75%;
+        font-size: 20px;
+        color: whitesmoke;
+        margin: 50px auto;
+        @media screen and (max-width: 450px) {
+          font-size: 18px;
+        }
       }
     }
   }

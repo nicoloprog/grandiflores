@@ -25,7 +25,7 @@ export default function MainMenu(props) {
             className={styles.logo2}
             src={require(`../../../assets/images/montagne.png`)}
             alt="Picture of the author"
-            style={{ width: "40px", height: "40px" }}
+            style={{ width: "43px", height: "43px" }}
           />
           <div className={styles.shadow}></div>
         </span>

@@ -3,42 +3,49 @@
     {
       "id": 0,
       "titre": "Homéopathie",
+      "description": "L'homéopathie est utilisée pour une large gamme de conditions de santé, allant des troubles aigus aux problèmes chroniques, en se concentrant sur l'équilibre complet de l'individu. Les méthodes de dilutions permettent de renforcer l'effet curatif tout en minimisant les effets secondaires.  ",
       "imagePrincipal": "pipette.png",
       "prix": 150
     },
     {
       "id": 1,
       "titre": "Gemmothérapie",
+      "description": "La gemmothérapie est une approche de médecine douce qui utilise les propriétés thérapeutiques des bourgeons et des jeunes pousses de certaines plantes. ",
       "imagePrincipal": "berries.png",
       "prix": 150
     },
     {
       "id": 2,
       "titre": "Phytothérapie",
+      "description": " ",
       "imagePrincipal": "medicine.png",
       "prix": 150
     },
     {
       "id": 3,
       "titre": "Oligothérapie",
+      "description": " ",
       "imagePrincipal": "mine-cart.png",
       "prix": 150
     },
     {
       "id": 4,
       "titre": "Supports Nutritifs",
+      "description": " ",
       "imagePrincipal": "salad.png",
       "prix": 150
     },
     {
       "id": 5,
       "titre": "Remèdes floraux de bach",
+      "description": " ",
       "imagePrincipal": "bolle.png",
       "prix": 150
     },
     {
       "id": 6,
       "titre": "Organothérapie",
+      "description": " ",
       "imagePrincipal": "endocrine.png",
       "prix": 150
     }

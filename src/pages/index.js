@@ -25,13 +25,12 @@ const carouselOptions = {
   drag: "free",
   snap: true,
   autoplay: true,
-  interval: 3000,
+  interval: 4500,
   speed: 1000,
-  gap: "7px",
+  gap: "447px",
   breakpoints: {
-    450: {
-      autoWidth: false,
-      perPage: 1,
+    350: {
+      arrows: true,
     },
   },
 };
@@ -45,22 +44,24 @@ export default function Home() {
         <div className={styles.blur1}>
           <div className={styles.navSpace}>
             <div className={styles.welcome}>
-              <h1>Bienvenue chez Grandiflores</h1>
-              <h3>- Votre voie vers la Médecine Naturelle -</h3>
-              <p>
-                La nature peut offrir des solutions efficaces pour votre
-                bien-être. Notre mission est de vous guider vers une santé
-                optimale et une vitalité équilibré grâce aux merveilles de la
-                médecine naturelle. Dans un monde rempli de remèdes synthétiques
-                et de solutions rapides, nous défendons avec conviction
-                l'utilisation des bienfaits abondants de la nature. La médecine
-                naturelle adopte une approche holistique qui ne se contente pas
-                de traiter les symptômes, mais cherche également à découvrir les
-                causes profondes des déséquilibres de santé.
-              </p>
-              <Link href="#" className={styles.buttonBlue}>
-                <span>Réserver une rencontre immédiatement</span>
-              </Link>
+              <div className={styles.welcomeText}>
+                <h1>Bienvenue chez Grandiflores</h1>
+                <h3>- Votre voie vers la Médecine Naturelle -</h3>
+                <p>
+                  La nature peut offrir des solutions efficaces pour votre
+                  bien-être. Notre mission est de vous guider vers une santé
+                  optimale et une vitalité équilibré grâce aux merveilles de la
+                  médecine naturelle. Dans un monde rempli de remèdes
+                  synthétiques et de solutions rapides, nous défendons avec
+                  conviction l'utilisation des bienfaits abondants de la nature.
+                  La médecine naturelle adopte une approche holistique qui ne se
+                  contente pas de traiter les symptômes, mais cherche également
+                  à découvrir les causes profondes des déséquilibres de santé.
+                </p>
+                <Link href="#" className={styles.buttonBlue}>
+                  <span>Réserver une rencontre</span>
+                </Link>
+              </div>
             </div>
             <div className={styles.arrow}>
               <span></span>
@@ -72,7 +73,7 @@ export default function Home() {
             <Image
               src={require(`../assets/images/background1.png`)}
               alt="Picture of the author"
-              style={{ width: "100%", height: "90vh" }}
+              style={{ width: "100%", height: "100vh" }}
             />
           </div>
           <div className={styles.blur2}></div>
@@ -86,9 +87,10 @@ export default function Home() {
                   <Image
                     src={require(`../assets/images/${oeuvre.imagePrincipal}`)}
                     alt="Picture of the author"
-                    style={{ width: "250px", height: "250px" }}
+                    style={{ width: "200px", height: "200px" }}
                   />
                   <div className={styles.title}>{oeuvre.titre}</div>
+                  <div className={styles.description}>{oeuvre.description}</div>
                 </SplideSlide>
               ))}
             </Splide>
