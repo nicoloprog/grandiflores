@@ -44,7 +44,7 @@ $shadow: #2b393d;
       width: 190.5rem;
       height: 36rem;
       margin: 0px auto 0px auto;
-      background-color: #c9c9c9b4;
+      background-color: rgba(255, 255, 255, 0.509);
       color: #343454;
       padding: 1.5rem;
       font-size: 2.3rem;
@@ -55,7 +55,7 @@ $shadow: #2b393d;
 
       @media screen and (max-width: 2048px) {
         width: 100.5rem;
-        height: 29rem;
+        height: 19rem;
         margin: 10px auto 0px auto;
         padding: 1.5rem;
         font-size: 1.85rem;
@@ -67,10 +67,10 @@ $shadow: #2b393d;
 
       @media screen and (max-width: 450px) {
         width: 18.5rem;
-        height: 29.5rem;
+        height: 12.5rem;
         margin: -60px auto 0px auto;
         padding: 1.5rem;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         position: relative;
         text-align: center;
         z-index: 0;
@@ -96,7 +96,7 @@ $shadow: #2b393d;
       z-index: -1;
       top: -101.5rem;
       left: 93rem;
-      background: linear-gradient(-90deg, #7294b2, #325d80);
+      background: linear-gradient(-90deg, #557796, #2e658f);
       min-height: 3200px;
       min-width: 100px;
       border-radius: 32rem;
@@ -105,34 +105,16 @@ $shadow: #2b393d;
       transition: transform 0.3s ease-out;
       transform: rotate(90deg);
       @media screen and (max-width: 2048px) {
-        content: "";
-        position: absolute;
-        z-index: -1;
         top: -78.5rem;
         left: 53rem;
-        background: linear-gradient(-90deg, #7294b2, #325d80);
         min-height: 2500px;
         min-width: 60px;
-        border-radius: 32rem;
-        transform: scale(1.5);
-        transform-origin: 50% 50%;
-        transition: transform 0.3s ease-out;
-        transform: rotate(90deg);
       }
       @media screen and (max-width: 450px) {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -16.2rem;
-        left: 10rem;
-        background: linear-gradient(-90deg, #81a8cb, #4477a1);
-        min-height: 100%;
+        top: -11.5rem;
+        left: 9.6rem;
+        min-height: 150%;
         min-width: 10%;
-        border-radius: 32rem;
-        transform: scale(1.5);
-        transform-origin: 50% 50%;
-        transition: transform 0.3s ease-out;
-        transform: rotate(90deg);
       }
     }
 
@@ -161,7 +143,7 @@ $shadow: #2b393d;
 
       @media screen and (max-width: 450px) {
         margin: 15px auto 0 auto;
-        font: bold 1.1em "Trebuchet MS", Arial, Helvetica;
+        font: bold 1.3em "Trebuchet MS", Arial, Helvetica;
       }
     }
 
@@ -247,6 +229,26 @@ $shadow: #2b393d;
       background: #4477a1;
     }
 
+    .carousel {
+      display: flex;
+      flex-direction: column;
+      top: 50px;
+      text-align: center;
+      position: relative;
+
+      .title {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        color: whitesmoke;
+        margin-top: 50px;
+        @media screen and (max-width: 450px) {
+          font-size: 24px;
+        }
+      }
+    }
+
     .arrow {
       position: absolute;
       top: 80%;
@@ -308,38 +310,6 @@ $shadow: #2b393d;
     min-height: 160.5vh;
     background: linear-gradient(90deg, #2c3532, #64818c, #2c3532);
     z-index: 2;
-
-    .carousel {
-      display: flex;
-      flex-direction: column;
-      top: 580px;
-      text-align: center;
-      position: relative;
-
-      .title {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        font-weight: 900;
-        font-size: 50px;
-        color: whitesmoke;
-        margin-top: 50px;
-        @media screen and (max-width: 450px) {
-          font-size: 28px;
-        }
-      }
-      .description {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        font-weight: 900;
-        width: 75%;
-        font-size: 20px;
-        color: whitesmoke;
-        margin: 50px auto;
-        @media screen and (max-width: 450px) {
-          font-size: 18px;
-        }
-      }
-    }
   }
   .remedies {
     position: absolute;

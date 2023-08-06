@@ -43,11 +43,7 @@
         padding: 40px 20px 40px
           clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
         height: 95px;
-        background: linear-gradient(
-          to right,
-          rgba(0, 39, 91, 0.295),
-          rgba(0, 40, 91, 0)
-        );
+        background: linear-gradient(to right, #2e658f85, rgba(0, 40, 91, 0));
 
         @media screen and (max-width: 2048px) {
           width: 325px;
@@ -73,7 +69,7 @@
         font-size: 1.52rem;
         margin-top: 15px;
         border-radius: 15px;
-        background-color: rgba(255, 255, 255, 0.438);
+        background-color: rgba(255, 255, 255, 0.509);
         box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
 
         @media screen and (max-width: 2048px) {
@@ -87,7 +83,7 @@
         @media screen and (max-width: 450px) {
           height: 78px;
           width: 215px;
-          font-size: 0.65rem;
+          font-size: 0.654rem;
           margin-top: 17px;
           border-radius: 15px;
         }

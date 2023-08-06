@@ -17,8 +17,6 @@ const inter = Inter({ subsets: ["latin"] });
 const carouselOptions = {
   pagination: false,
   type: "loop",
-  perPage: 1,
-  perMove: 1,
   arrows: false,
   rewind: false,
   pauseOnFocus: true,
@@ -27,10 +25,14 @@ const carouselOptions = {
   autoplay: true,
   interval: 4500,
   speed: 1000,
-  gap: "447px",
+  perPage: 1,
+  gap: "0px",
+  mediaQuery: "min",
   breakpoints: {
-    350: {
-      arrows: true,
+    540: {
+      perPage: 3,
+      perMove: 1,
+      gap: "-250px",
     },
   },
 };
@@ -45,23 +47,30 @@ export default function Home() {
           <div className={styles.navSpace}>
             <div className={styles.welcome}>
               <div className={styles.welcomeText}>
-                <h1>Bienvenue chez Grandiflores</h1>
-                <h3>- Votre voie vers la Médecine Naturelle -</h3>
+                <h1> L'homéopathie un équilibre avec le corps et l'esprit </h1>
                 <p>
-                  La nature peut offrir des solutions efficaces pour votre
-                  bien-être. Notre mission est de vous guider vers une santé
-                  optimale et une vitalité équilibré grâce aux merveilles de la
-                  médecine naturelle. Dans un monde rempli de remèdes
-                  synthétiques et de solutions rapides, nous défendons avec
-                  conviction l'utilisation des bienfaits abondants de la nature.
-                  La médecine naturelle adopte une approche holistique qui ne se
-                  contente pas de traiter les symptômes, mais cherche également
-                  à découvrir les causes profondes des déséquilibres de santé.
+                  Nous offrons des solutions naturel et douces pour vous
+                  accompagner vers une meilleure santé.
                 </p>
                 <Link href="#" className={styles.buttonBlue}>
-                  <span>Réserver une rencontre</span>
+                  <span>Réserver une consultation</span>
                 </Link>
               </div>
+            </div>
+            <div className={cx(styles.carousel)}>
+              <Splide options={carouselOptions}>
+                items=
+                {Data.oeuvres.map((oeuvre) => (
+                  <SplideSlide>
+                    <Image
+                      src={require(`../assets/images/${oeuvre.imagePrincipal}`)}
+                      alt="Picture of the author"
+                      style={{ width: "80px", height: "80px" }}
+                    />
+                    <div className={styles.title}>{oeuvre.titre}</div>
+                  </SplideSlide>
+                ))}
+              </Splide>
             </div>
             <div className={styles.arrow}>
               <span></span>
@@ -78,24 +87,7 @@ export default function Home() {
           </div>
           <div className={styles.blur2}></div>
         </div>
-        <div className={styles.services}>
-          <div className={cx(styles.carousel)}>
-            <Splide options={carouselOptions}>
-              items=
-              {Data.oeuvres.map((oeuvre) => (
-                <SplideSlide>
-                  <Image
-                    src={require(`../assets/images/${oeuvre.imagePrincipal}`)}
-                    alt="Picture of the author"
-                    style={{ width: "200px", height: "200px" }}
-                  />
-                  <div className={styles.title}>{oeuvre.titre}</div>
-                  <div className={styles.description}>{oeuvre.description}</div>
-                </SplideSlide>
-              ))}
-            </Splide>
-          </div>
-        </div>
+        <div className={styles.services}></div>
         <div className={styles.remedies}>
           <div className={styles.cardRemedies}>
             <div className={styles.container}>
