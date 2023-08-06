@@ -302,22 +302,24 @@ $shadow: #2b393d;
     z-index: 0;
   }
 
-  .remedies {
+  .services {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 90vh;
+    margin-top: 65.5vh;
+    padding-bottom: 185px;
     width: 100%;
-    min-height: 900px;
-    background: radial-gradient(circle, #93aebf, #64818c);
+    min-height: 160.5vh;
+    background: linear-gradient(90deg, #2c3532, #64818c, #2c3532);
     z-index: 2;
+
     .cardRemedies {
       width: 68%;
       height: 500px;
       background-color: rgba(164, 173, 98, 0.783);
-      margin: 0;
+      margin: -200px auto 0px auto;
       border-radius: 15px;
       padding: 48px;
       box-shadow: 15px 20px darkslategray;
@@ -325,8 +327,8 @@ $shadow: #2b393d;
     }
     .container {
       position: absolute;
-      top: 50%;
-      left: 70%;
+      top: 40%;
+      left: 50%;
       transform: translateY(-50%) translateX(-50%);
       height: 250px;
       width: 150px;
@@ -529,5 +531,17 @@ $shadow: #2b393d;
       font-weight: 300px;
       color: $white;
     }
+  }
+  .remedies {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260vh;
+    width: 100%;
+    min-height: 900px;
+    background: radial-gradient(circle, #93aebf, #64818c);
+    z-index: 2;
   }
 }

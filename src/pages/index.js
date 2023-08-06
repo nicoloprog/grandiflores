@@ -87,7 +87,7 @@ export default function Home() {
           </div>
           <div className={styles.blur2}></div>
         </div>
-        <div className={styles.remedies}>
+        <div className={styles.services}>
           <div className={styles.cardRemedies}>
             <div className={styles.container}>
               <div className={styles.bottle}>
@@ -110,6 +110,7 @@ export default function Home() {
             <div className={styles.shadow2}></div>
           </div>
         </div>
+        <div className={styles.remedies}></div>
       </div>
     </MainLayout>
   );
