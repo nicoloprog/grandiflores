@@ -302,22 +302,13 @@ $shadow: #2b393d;
     z-index: 0;
   }
 
-  .services {
-    position: absolute;
-    margin-top: 65.5vh;
-    padding-bottom: 185px;
-    width: 100%;
-    min-height: 160.5vh;
-    background: linear-gradient(90deg, #2c3532, #64818c, #2c3532);
-    z-index: 2;
-  }
   .remedies {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 260vh;
+    margin-top: 90vh;
     width: 100%;
     min-height: 900px;
     background: radial-gradient(circle, #93aebf, #64818c);

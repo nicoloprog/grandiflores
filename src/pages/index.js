@@ -87,7 +87,6 @@ export default function Home() {
           </div>
           <div className={styles.blur2}></div>
         </div>
-        <div className={styles.services}></div>
         <div className={styles.remedies}>
           <div className={styles.cardRemedies}>
             <div className={styles.container}>
