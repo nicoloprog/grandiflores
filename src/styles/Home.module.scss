@@ -101,7 +101,7 @@ $shadow: #2b393d;
 
       @media screen and (max-width: 450px) {
         font-size: 15.5px;
-        font-style: bold;
+        font: bold 1.28em "Trebuchet MS", Arial, Helvetica;
         padding: 1rem 0;
         margin: -25px 5px 0 5px;
       }
@@ -128,9 +128,9 @@ $shadow: #2b393d;
         min-width: 60px;
       }
       @media screen and (max-width: 450px) {
-        top: -12.5rem;
+        top: -11.5rem;
         left: 9.6rem;
-        min-height: 150%;
+        min-height: 165%;
         min-width: 10%;
       }
     }
