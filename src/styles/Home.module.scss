@@ -90,7 +90,7 @@ $shadow: #2b393d;
         font-size: 50px;
       }
       @media screen and (max-width: 450px) {
-        font-size: 25px;
+        display: none;
       }
     }
 
