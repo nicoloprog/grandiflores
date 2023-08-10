@@ -89,6 +89,9 @@ $shadow: #2b393d;
       @media screen and (max-width: 2048px) {
         font-size: 50px;
       }
+      @media screen and (max-width: 450px) {
+        font-size: 25px;
+      }
     }
 
     p {
