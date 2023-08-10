@@ -232,7 +232,7 @@ $shadow: #2b393d;
     .carousel {
       display: flex;
       flex-direction: column;
-      top: 50px;
+      top: 75px;
       text-align: center;
       position: relative;
 
@@ -240,11 +240,11 @@ $shadow: #2b393d;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         font-weight: 900;
-        font-size: 30px;
+        font-size: 24px;
         color: whitesmoke;
         margin-top: 50px;
         @media screen and (max-width: 450px) {
-          font-size: 24px;
+          font-size: 21px;
         }
       }
     }
@@ -324,6 +324,12 @@ $shadow: #2b393d;
       padding: 48px;
       box-shadow: 15px 20px darkslategray;
       box-sizing: border-box;
+      @media screen and (max-width: 450px) {
+        width: 70%;
+        height: 500px;
+        margin: -100px auto 0px auto;
+        box-shadow: 7px 10px rgba(7, 7, 7, 0.378);
+      }
     }
     .container {
       position: absolute;

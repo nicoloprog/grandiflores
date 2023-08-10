@@ -30,9 +30,9 @@ const carouselOptions = {
   mediaQuery: "min",
   breakpoints: {
     540: {
-      perPage: 3,
+      perPage: 4,
       perMove: 1,
-      gap: "-250px",
+      gap: "-175px",
     },
   },
 };
@@ -65,7 +65,7 @@ export default function Home() {
                     <Image
                       src={require(`../assets/images/${oeuvre.imagePrincipal}`)}
                       alt="Picture of the author"
-                      style={{ width: "80px", height: "80px" }}
+                      style={{ width: "60px", height: "60px" }}
                     />
                     <div className={styles.title}>{oeuvre.titre}</div>
                   </SplideSlide>
