@@ -47,9 +47,9 @@ export default function Home() {
           <div className={styles.navSpace}>
             <div className={styles.welcome}>
               <div className={styles.welcomeText}>
-                <h1> L'homéopathie un équilibre avec le corps et l'esprit </h1>
+                <h2>Un équilibre entre le corps et l'esprit</h2>
                 <p>
-                  Nous offrons des solutions naturel et douces pour vous
+                  L'homéopathie offre des solutions naturel et douces pour vous
                   accompagner vers une meilleure santé.
                 </p>
                 <Link href="#" className={styles.buttonBlue}>
