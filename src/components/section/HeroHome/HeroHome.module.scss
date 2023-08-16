@@ -65,7 +65,7 @@
         margin-top: 0;
         @media screen and (max-width: 450px) {
           font-size: clamp(32.5px, 0.6667rem + 1.3333vw, 34px);
-          font-weight: 825;
+          font-weight: 625;
           margin-top: 15px;
         }
       }
@@ -99,7 +99,7 @@
 
         @media screen and (max-width: 450px) {
           margin: 5px auto 0 auto;
-          font: bold 1.18em "Trebuchet MS", Arial, Helvetica;
+          font: bold 1.16em "Trebuchet MS", Arial, Helvetica;
         }
       }
 
