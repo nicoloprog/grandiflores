@@ -64,7 +64,7 @@
         font-size: clamp(1rem, 0.6667rem + 1.3333vw, 2rem);
         margin-top: 0;
         @media screen and (max-width: 450px) {
-          font-size: clamp(32.5px, 0.6667rem + 1.3333vw, 34px);
+          font-size: clamp(30px, 0.6667rem + 1.3333vw, 32.5px);
           margin-top: 15px;
         }
       }
