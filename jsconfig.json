@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/images/*": ["./assets/images/*"],
+      "@/data/*": ["./assets/data/*"],
+      "@/video/*": ["./assets/video/*"],
+      "@/baseComponents/*": ["./components/base/*"],
+      "@/layout/*": ["./components/layout/*"],
+      "@/section/*": ["./components/section/*"],
+      "@/styles/*": ["./styles/*"]
     }
   }
 }

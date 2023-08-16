@@ -1,0 +1,280 @@
+@use "styles/colors";
+
+.component {
+  .services {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 185px;
+    width: 100%;
+    min-height: 160.5vh;
+    background: linear-gradient(90deg, #2c3532, #64818c, #2c3532);
+    z-index: 2;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      height: 1000px;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0), black);
+
+      @media screen and (max-width: 450px) {
+        height: 300px;
+      }
+    }
+
+    .cardRemedies {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      margin-inline: auto;
+      top: -200px;
+      width: 68%;
+      height: 500px;
+      background-color: rgba(164, 173, 98, 0.783);
+      border-radius: 15px;
+      padding: 48px;
+      box-shadow: 15px 20px darkslategray;
+      box-sizing: border-box;
+      @media screen and (max-width: 450px) {
+        width: 75%;
+        top: -250px;
+        height: 500px;
+        box-shadow: 7px 10px rgba(7, 7, 7, 0.378);
+      }
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      height: 250px;
+      width: 150px;
+      animation: shake 2s ease-in-out infinite;
+    }
+    .bottle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      background: colors.$bottle;
+      width: 190px;
+      height: 250px;
+      border-radius: 55px;
+      overflow: hidden;
+      @media screen and (max-width: 450px) {
+        display: none;
+      }
+    }
+
+    .cap {
+      position: absolute;
+      width: 60px;
+      height: 40px;
+      background: colors.$white;
+      top: 12%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-190%);
+      border-radius: 5px;
+      @media screen and (max-width: 450px) {
+        display: none;
+      }
+    }
+
+    .cap_shadow {
+      position: absolute;
+      background: colors.$cap_shadow;
+      height: 40px;
+      width: 30px;
+      right: 1.5%;
+      border-radius: 0 5px 5px 0;
+      animation: cap-shadow 2s ease-in-out infinite;
+    }
+
+    .bottle_shadow {
+      position: absolute;
+      background: colors.$bottle_shadow;
+      opacity: 0.5;
+      height: 142px;
+      width: 5px;
+      right: 5%;
+      top: 18%;
+      animation: bottle-shadow 2px ease-in-out infinite;
+      @media screen and (max-width: 450px) {
+        display: none;
+      }
+    }
+
+    .bottle_shadow::before {
+      content: "";
+      background: colors.$bottle_shadow;
+      width: 85px;
+      height: 8px;
+      position: absolute;
+      left: -80px;
+      top: -2px;
+      clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+
+    .label {
+      position: absolute;
+      background: colors.$label;
+      width: 28px;
+      height: 8px;
+      top: 23%;
+      left: 45%;
+    }
+
+    .logo {
+      position: absolute;
+      background: colors.$logo;
+      width: 15px;
+      height: 15px;
+      top: 19%;
+      left: 10%;
+      border-radius: 50%;
+    }
+
+    .paragraphs {
+      position: absolute;
+      background: colors.$writing;
+    }
+
+    .paragraphs span:nth-child(1) {
+      width: 39px;
+      height: 3px;
+      position: absolute;
+      background: colors.$writing;
+      top: 38px;
+      left: 20px;
+    }
+
+    .paragraphs span:nth-child(2) {
+      width: 49px;
+      height: 3px;
+      position: absolute;
+      background: colors.$writing;
+      top: 44px;
+      left: 10px;
+    }
+
+    .paragraphs span:nth-child(3) {
+      width: 49px;
+      height: 3px;
+      position: absolute;
+      background: colors.$writing;
+      top: 50px;
+      left: 10px;
+    }
+
+    .paragraphs span:nth-child(4) {
+      width: 49px;
+      height: 3px;
+      position: absolute;
+      background: colors.$writing;
+      top: 56px;
+      left: 10px;
+    }
+
+    .shadow2 {
+      background: colors.$shadow;
+      position: absolute;
+      width: 120px;
+      height: 5px;
+      border-radius: 50%;
+      top: 65%;
+      margin-top: 40px;
+      left: 67.5%;
+      animation: expand 2s ease-in-out infinite;
+      transform: translateX(-50%) translateY(-50%);
+      @media screen and (max-width: 450px) {
+        display: none;
+      }
+    }
+    @keyframes expand {
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(0.85);
+      }
+    }
+
+    .prescription {
+      position: absolute;
+      width: 60px;
+      height: 70px;
+      background: colors.$white;
+      top: 50%;
+      left: 150%;
+      transform: translateX(-50%) translateY(-50%);
+      animation: rotate 3s infinite linear;
+    }
+
+    .drawing {
+      height: 500px;
+      width: 300px;
+    }
+    @keyframes rotate {
+      100% {
+        left: -100%;
+      }
+    }
+
+    @keyframes shake {
+      0% {
+        transform: translateX(-50%) translateY(-50%) rotate(-5deg);
+      }
+      50% {
+        transform: translateX(-50%) translateY(-50%) rotate(-10deg);
+      }
+      65% {
+        transform: translateX(-50%) translateY(-50%) rotate(-10deg);
+      }
+      100% {
+        transform: translateX(-50%) translateY(-50%) rotate(-5deg);
+      }
+    }
+
+    @keyframes cap-shadow {
+      20% {
+        width: 35px;
+      }
+      50% {
+        width: 20px;
+      }
+      78% {
+        width: 33px;
+      }
+    }
+
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+      font-family: "Helvetica Neue";
+      font-size: 18px;
+      line-height: 33px;
+      font-weight: 300px;
+      color: colors.$white;
+    }
+  }
+
+  .remedies {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260vh;
+    width: 100%;
+    min-height: 900px;
+    background: radial-gradient(circle, #93aebf, #64818c);
+    z-index: 2;
+  }
+}

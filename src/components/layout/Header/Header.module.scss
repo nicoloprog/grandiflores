@@ -1,127 +1,205 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
 .component {
+  position: absolute;
   display: flex;
   align-items: center;
-  width: 1000px;
+  width: 100%;
   min-height: 150px;
   justify-content: space-between;
+  z-index: 100000;
+  filter: saturate(165%);
+  background-color: #0249596b;
 
-  .link {
-    color: black;
-    text-decoration: none;
-    .mainLogo {
-      position: absolute;
-      display: flex;
-      flex-direction: row;
-      gap: 68.5%;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      max-height: 175px;
-      z-index: 100000;
-      filter: saturate(170%);
-      background-color: rgba(5, 8, 23, 0.41);
-      box-shadow: 0px 5px 20px #727272;
+  @media screen and (max-width: 450px) {
+    min-height: 135px;
+  }
 
-      @media screen and (max-width: 2048px) {
-        gap: clamp(750px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 1025px);
-        max-height: 175px;
-      }
-      @media screen and (max-width: 1750px) {
-        gap: clamp(350px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 580px);
-        max-height: 205px;
+  .wrapper {
+    position: relative;
+    max-width: 2960px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    @media screen and (max-width: 2110px) {
+      max-width: 1800px;
+    }
+    @media screen and (max-width: 450px) {
+      max-width: 400px;
+    }
+
+    .logo {
+      width: 360px;
+      height: 75px;
+      @media screen and (max-width: 2110px) {
+        width: 385px;
+        height: 80px;
       }
       @media screen and (max-width: 450px) {
-        gap: clamp(0px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 15px);
-        max-height: 110px;
-        overflow-x: hidden;
+        width: 160px;
+        height: 50px;
+        margin-left: 15px;
       }
+    }
 
-      .mainImage img {
-        width: 350px;
-        padding: 40px 20px 40px
-          clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
-        height: 95px;
-        background: linear-gradient(to right, #2b57789b, rgba(0, 40, 91, 0));
+    .content {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      align-items: center;
 
-        @media screen and (max-width: 2048px) {
-          width: 325px;
-          padding: 50px 20px 55px
-            clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
-          height: 70px;
-        }
-
-        @media screen and (max-width: 450px) {
-          width: 130px;
-          padding: 30px 20px 40px
-            clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
-          height: 45px;
-        }
+      @media screen and (max-width: 450px) {
       }
-
-      .box {
+      .phoneNumber {
         display: flex;
-        height: 145px;
-        align-items: center;
-        height: 145px;
-        width: 600px;
-        font-size: 1.52rem;
-        margin-top: 15px;
-        border-radius: 15px;
-        background-color: rgba(255, 255, 255, 0.509);
-        box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
+        gap: 55px;
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
 
-        @media screen and (max-width: 2048px) {
-          height: 145px;
-          width: 560px;
-          font-size: 1.52rem;
-          margin-top: 15px;
-          border-radius: 15px;
+        @media screen and (max-width: 2110px) {
+          font-size: 25px;
         }
-
         @media screen and (max-width: 450px) {
-          height: 78px;
-          width: 215px;
-          font-size: 0.654rem;
-          margin-top: 17px;
-          border-radius: 15px;
+          font-size: 15px;
+          gap: 10px;
+          margin-right: 15px;
         }
       }
+    }
+    .phoneIcone {
+      height: 80px;
+      width: 80px;
+      transition: 500ms;
 
-      .avatar {
-        background-image: url(../../../assets/images/phone.png);
-        background-position: center;
-        background-size: 45px;
-        background-repeat: no-repeat;
-        height: 60px;
-        width: 60px;
-        border-radius: 55px;
-        margin: 0 10px 0 40px;
-        @media screen and (max-width: 450px) {
-          background-image: url(../../../assets/images/phone.png);
-          background-position: center;
-          background-size: 18px;
-          background-repeat: no-repeat;
-          height: 35px;
-          width: 35px;
-          border-radius: 55px;
-          margin: 0px 2.5px 0 8px;
-        }
+      @media screen and (max-width: 450px) {
+        height: 40px;
+        width: 40px;
       }
 
-      .content {
-        padding: 10% 4%;
-        margin: 20px 0 0 0;
-        color: #343454;
-        @media screen and (max-width: 450px) {
-          margin: 10px 5px 0 0;
-        }
-        p {
-          cursor: pointer;
-          margin-top: 5px;
+      &:hover {
+        path {
+          stroke: rgba(179, 179, 179, 0.861);
         }
       }
     }
   }
+
+  // .mainLogo {
+  //   position: absolute;
+  //   display: flex;
+  //   flex-direction: row;
+  //   gap: 68.5%;
+  //   top: 0px;
+  //   left: 0px;
+  //   width: 100%;
+  //   max-height: 175px;
+  //   z-index: 100000;
+  //   filter: saturate(170%);
+  //   background-color: rgba(5, 8, 23, 0.41);
+  //   box-shadow: 0px 5px 20px #727272;
+
+  //   @media screen and (max-width: 2048px) {
+  //     gap: clamp(750px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 1025px);
+  //     max-height: 175px;
+  //   }
+  //   @media screen and (max-width: 1750px) {
+  //     gap: clamp(350px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 580px);
+  //     max-height: 205px;
+  //   }
+  //   @media screen and (max-width: 450px) {
+  //     gap: clamp(0px, calc(46.875rem + ((1vw - 2.5px) * 17.8378)), 15px);
+  //     max-height: 110px;
+  //     overflow-x: hidden;
+  //   }
+
+  //   .mainImage img {
+  //     width: 350px;
+  //     padding: 40px 20px 40px
+  //       clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+  //     height: 95px;
+  //     background: linear-gradient(to right, #2b57789b, rgba(0, 40, 91, 0));
+
+  //     @media screen and (max-width: 2048px) {
+  //       width: 325px;
+  //       padding: 50px 20px 55px
+  //         clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+  //       height: 70px;
+  //     }
+
+  //     @media screen and (max-width: 450px) {
+  //       width: 130px;
+  //       padding: 30px 20px 40px
+  //         clamp(20px, calc(0.625rem + ((1vw - 2.5px) * 6.1538)), 85px);
+  //       height: 45px;
+  //     }
+  //   }
+
+  //   .box {
+  //     display: flex;
+  //     height: 145px;
+  //     align-items: center;
+  //     height: 145px;
+  //     width: 600px;
+  //     font-size: 1.52rem;
+  //     margin-top: 15px;
+  //     border-radius: 15px;
+  //     background-color: rgba(255, 255, 255, 0.509);
+  //     box-shadow: 0 0.1rem 2rem rgba(255, 255, 255, 0.25);
+
+  //     @media screen and (max-width: 2048px) {
+  //       height: 145px;
+  //       width: 520px;
+  //       font-size: 1.2rem;
+  //       margin: 15px 20px 0 0;
+  //       border-radius: 15px;
+  //     }
+
+  //     @media screen and (max-width: 450px) {
+  //       height: 78px;
+  //       width: 215px;
+  //       font-size: 0.654rem;
+  //       margin-top: 17px;
+  //       border-radius: 15px;
+  //     }
+  //   }
+
+  //   .avatar {
+  //     background-image: url(../../../assets/images/phone.png);
+  //     background-position: center;
+  //     background-size: 45px;
+  //     background-repeat: no-repeat;
+  //     height: 60px;
+  //     width: 60px;
+  //     border-radius: 55px;
+  //     margin: 0 10px 0 40px;
+  //     @media screen and (max-width: 450px) {
+  //       background-image: url(../../../assets/images/phone.png);
+  //       background-position: center;
+  //       background-size: 18px;
+  //       background-repeat: no-repeat;
+  //       height: 35px;
+  //       width: 35px;
+  //       border-radius: 55px;
+  //       margin: 0px 2.5px 0 8px;
+  //     }
+  //   }
+
+  //   .content {
+  //     padding: 10% 4%;
+  //     margin: 20px 0 0 0;
+  //     color: #343454;
+  //     @media screen and (max-width: 450px) {
+  //       margin: 10px 5px 0 0;
+  //     }
+  //     p {
+  //       cursor: pointer;
+  //       margin-top: 5px;
+  //     }
+  //   }
+  // }
 }
