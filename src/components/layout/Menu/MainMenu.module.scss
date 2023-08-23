@@ -44,8 +44,8 @@
     @media screen and (max-width: 450px) {
       flex-direction: column;
       align-items: center;
-      top: 172vw;
-      height: 90px;
+      top: 178vw;
+      height: 60px;
       left: 8vw;
       width: 350px;
       background: linear-gradient(to bottom, #007bff, #0056b3);
@@ -65,9 +65,9 @@
       display: flex;
       flex-direction: column;
       @media screen and (max-width: 450px) {
-        gap: 40px;
+        gap: 45px;
         flex-direction: row; /* Change to column layout for mobile */
-        margin: -25px 0 25px 0;
+        margin: -35px 0 35px 0;
       }
 
       a {
