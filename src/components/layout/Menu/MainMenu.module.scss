@@ -3,6 +3,7 @@
 
 .component {
   position: relative;
+
   .overlay {
     position: fixed;
     width: 100vw;
@@ -15,98 +16,66 @@
     display: flex;
     flex-direction: column;
     top: 320px;
-    right: 0px;
     width: 330px;
-    min-height: 400px;
+    height: 400px;
     background: rgba(255, 255, 255, 0.639);
     padding: 10px 40px 90px 35px;
     z-index: 100;
     border: 1px solid #4444448d;
     margin: 0;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px;
     text-decoration: none;
     font-size: 40px;
     color: rgb(101, 101, 101);
-    transition: 400ms;
 
     @media screen and (max-width: 2048px) {
       top: 300px;
       right: 0px;
       width: 330px;
-      min-height: 400px;
-    }
-
-    @media screen and (max-width: 450px) {
-      top: 200px;
-      right: 0px;
-      width: 290px;
-      min-height: 375px;
-      padding: 25px 45px 40px 8.5px;
+      height: 400px;
     }
 
     .logo2 {
-      animation: float 3.5s ease-in-out infinite;
-      margin: 10px 0 0 12.5px;
-      border-radius: 50%;
-      position: relative;
-      filter: brightness(0.75);
-
       @media screen and (max-width: 450px) {
-        margin: 5px 0 0 -12.5px;
+        display: none;
       }
     }
 
-    @keyframes float {
-      0% {
-        transform: translatey(0px);
-      }
-      50% {
-        transform: translatey(-7px);
-      }
-      100% {
-        transform: translatey(0px);
-      }
+    @media screen and (max-width: 450px) {
+      flex-direction: column;
+      align-items: center;
+      top: 180vw;
+      height: 90px;
+      left: 14.5vw;
+      width: 300px;
+      background: linear-gradient(to bottom, #007bff, #0056b3);
+      padding: 0;
+      z-index: 100;
+      border-top: 1px solid #0063cc;
+      border-radius: 55px;
     }
-    .shadow {
-      background: #44444446;
-      margin: 10px 0 0 19px;
-      z-index: -1;
-      width: 28px;
-      height: 8px;
-      top: 70%;
-      animation: expand 3.5s ease-in-out infinite;
-      position: absolute;
-      border-radius: 50%;
 
-      @media screen and (max-width: 450px) {
-        margin: 8px 0 0 -5px;
-      }
-    }
-    @keyframes expand {
-      0%,
-      100% {
-        transform: scale(1);
-      }
-
-      50% {
-        transform: scale(0.65);
-      }
-    }
+    // Rest of your styles
 
     &.hiddenMenu {
       right: -295px;
-      // right: 100px;
     }
+
     .option {
       display: flex;
       flex-direction: column;
+      @media screen and (max-width: 450px) {
+        gap: 40px;
+        flex-direction: row; /* Change to column layout for mobile */
+        margin: -25px 0 25px 0;
+      }
 
       a {
         font-size: 33px;
         color: rgb(57, 57, 57);
         margin-top: 40px;
         text-decoration: none;
-        // font-family: "Lora", serif;
+
         &:hover {
           color: rgb(149, 149, 149);
         }
@@ -117,6 +86,7 @@
   .closedMenu {
     cursor: pointer;
     margin: auto;
+
     &:hover {
       padding: 5px 5px 0px 5px;
       border: 2px solid black;
@@ -130,7 +100,7 @@
     top: 15px;
     left: 16px;
     font-size: 45px;
-    transition: 400ms;
+
     &:hover {
       color: rgb(170, 170, 170);
     }

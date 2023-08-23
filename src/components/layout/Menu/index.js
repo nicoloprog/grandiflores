@@ -13,7 +13,7 @@ export default function MainMenu(props) {
 
   return (
     <nav className={styles.component} {...props}>
-      {/* <div className={cx(styles.menu, !isOpen && styles.hiddenMenu)} id="menu">
+      <div className={cx(styles.menu, !isOpen && styles.hiddenMenu)} id="menu">
         <div
           className={cx(styles.closedMenu, isOpen && styles.hidden)}
           onClick={toggleMenu}
@@ -35,7 +35,7 @@ export default function MainMenu(props) {
           <Link href="/publication">❖</Link>
           <Link href="/contact">❖</Link>
         </div>
-      </div> */}
+      </div>
     </nav>
   );
 }
