@@ -25,15 +25,43 @@ export default function MainMenu(props) {
             className={styles.logo2}
             src={require(`../../../assets/images/montagne.png`)}
             alt="Picture of the author"
-            style={{ width: "43px", height: "43px" }}
+            style={{ width: "35px", height: "35px" }}
           />
           <div className={styles.shadow}></div>
         </span>
         <div className={styles.option}>
-          <Link href="/">❖</Link>
-          <Link href="/publication">❖</Link>
-          <Link href="/publication">❖</Link>
-          <Link href="/contact">❖</Link>
+          <Link href="/">
+            <Image
+              className={styles.Home}
+              src={require(`../../../assets/images/user.png`)}
+              alt="Picture of the author"
+              style={{ width: "35px", height: "35px" }}
+            />
+          </Link>
+          <Link href="/publication">
+            <Image
+              className={styles.Home}
+              src={require(`../../../assets/images/home.png`)}
+              alt="Picture of the author"
+              style={{ width: "35px", height: "35px" }}
+            />
+          </Link>
+          <Link href="/publication">
+            <Image
+              className={styles.Home}
+              src={require(`../../../assets/images/calendar.png`)}
+              alt="Picture of the author"
+              style={{ width: "35px", height: "35px" }}
+            />
+          </Link>
+          <Link href="/contact">
+            <Image
+              className={styles.cart}
+              src={require(`../../../assets/images/cart.png`)}
+              alt="Picture of the author"
+              style={{ width: "43px", height: "43px" }}
+            />
+          </Link>
         </div>
       </div>
     </nav>
