@@ -42,8 +42,8 @@ const HeroHome = () => {
         <div className={styles.welcomeCard}>
           <h2>Un équilibre entre le corps et l'esprit</h2>
           <p>
-            L'homéopathie offre des solutions naturel et douces pour vous
-            accompagner vers une meilleure santé.
+            L'homéopathie offre des solutions naturelles pour vous accompagner
+            vers une meilleure santé.
           </p>
           <Link href="#" className={styles.buttonBlue}>
             <span>Réserver une consultation</span>

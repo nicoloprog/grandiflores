@@ -25,7 +25,6 @@
     margin: 0;
     border-radius: 15px;
     text-decoration: none;
-    font-size: 40px;
     color: rgb(101, 101, 101);
 
     @media screen and (max-width: 2048px) {
@@ -42,13 +41,16 @@
     }
 
     @media screen and (max-width: 450px) {
+      position: fixed;
+      top: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
       flex-direction: column;
       align-items: center;
-      top: 173vw;
       height: 60px;
-      left: 8vw;
-      width: 350px;
-      background: linear-gradient(to bottom, #007bff, #0056b3);
+      width: 90%;
+      background: linear-gradient(to bottom, #c8e3ff, #7996b4);
       padding: 0;
       z-index: 100;
       border-top: 1px solid #0063cc;
@@ -64,10 +66,13 @@
     .option {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       @media screen and (max-width: 450px) {
-        gap: 25px;
+        gap: clamp(6%, calc(0.3125rem + ((1vw - 2.8px) * 22.2222)), 25%);
         flex-direction: row; /* Change to column layout for mobile */
-        margin: -28px 0 28px 0;
+        justify-content: center;
+        align-self: center;
+        margin-top: -28px;
       }
 
       a {
@@ -82,7 +87,9 @@
         .Home {
           @media screen and (max-width: 450px) {
             border-right: 1px solid black;
-            padding: 0 21px 0 0;
+            padding: 0
+              clamp(12.5px, calc(0.625rem + ((1vw - 2.8px) * 11.1111)), 27.5px)
+              0 0;
           }
         }
         .cart {
