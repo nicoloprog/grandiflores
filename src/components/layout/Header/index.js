@@ -3,8 +3,8 @@ import styles from "./Header.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import MainLogo from "@/images/mainLogo.png";
-import Mail from "@/images/email.svg";
-import Telephone from "@/images/telephone.svg";
+import Mail from "@/images/email1.svg";
+import Telephone from "@/images/telephone1.svg";
 import Phone from "components/icons/Phone";
 import cx from "classnames";
 

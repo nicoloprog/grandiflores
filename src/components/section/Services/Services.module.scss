@@ -38,10 +38,11 @@
       padding: 48px;
       box-shadow: 15px 20px darkslategray;
       box-sizing: border-box;
+      z-index: 1000;
       @media screen and (max-width: 450px) {
-        width: 75%;
-        top: -250px;
-        height: 500px;
+        width: 85%;
+        top: -225px;
+        height: 525px;
         box-shadow: 7px 10px rgba(7, 7, 7, 0.378);
       }
     }
@@ -61,11 +62,14 @@
       transform: translateX(-50%) translateY(-50%);
       background: colors.$bottle;
       width: 190px;
-      height: 250px;
+      height: 300px;
       border-radius: 55px;
       overflow: hidden;
       @media screen and (max-width: 450px) {
-        display: none;
+        scale: 0.4;
+        border-radius: 75px 75px 25px 25px;
+        top: 76%;
+        left: -1.5%;
       }
     }
 
@@ -79,7 +83,9 @@
       transform: translateX(-50%) translateY(-190%);
       border-radius: 5px;
       @media screen and (max-width: 450px) {
-        display: none;
+        top: 89%;
+        left: 23%;
+        scale: 0.4;
       }
     }
 
@@ -103,7 +109,11 @@
       top: 18%;
       animation: bottle-shadow 2px ease-in-out infinite;
       @media screen and (max-width: 450px) {
-        display: none;
+        height: 142px;
+        width: 5px;
+        left: 57.5%;
+        top: 83%;
+        scale: 0.4;
       }
     }
 
@@ -123,8 +133,11 @@
       background: colors.$label;
       width: 28px;
       height: 8px;
-      top: 23%;
+      top: 73%;
       left: 45%;
+      @media screen and (max-width: 450px) {
+        width: 100px;
+      }
     }
 
     .logo {
@@ -135,6 +148,9 @@
       top: 19%;
       left: 10%;
       border-radius: 50%;
+      @media screen and (max-width: 450px) {
+        left: 5%;
+      }
     }
 
     .paragraphs {
@@ -148,7 +164,12 @@
       position: absolute;
       background: colors.$writing;
       top: 38px;
-      left: 20px;
+      @media screen and (max-width: 450px) {
+        width: 200px;
+        height: 10px;
+        top: 55px;
+        left: 15px;
+      }
     }
 
     .paragraphs span:nth-child(2) {
@@ -157,7 +178,12 @@
       position: absolute;
       background: colors.$writing;
       top: 44px;
-      left: 10px;
+      @media screen and (max-width: 450px) {
+        width: 200px;
+        height: 5px;
+        top: 75px;
+        left: 15px;
+      }
     }
 
     .paragraphs span:nth-child(3) {
@@ -166,7 +192,12 @@
       position: absolute;
       background: colors.$writing;
       top: 50px;
-      left: 10px;
+      @media screen and (max-width: 450px) {
+        width: 150px;
+        height: 5px;
+        top: 82px;
+        left: 15px;
+      }
     }
 
     .paragraphs span:nth-child(4) {
@@ -176,6 +207,12 @@
       background: colors.$writing;
       top: 56px;
       left: 10px;
+      @media screen and (max-width: 450px) {
+        width: 200px;
+        height: 5px;
+        top: 90px;
+        left: 15px;
+      }
     }
 
     .shadow2 {
@@ -190,7 +227,9 @@
       animation: expand 2s ease-in-out infinite;
       transform: translateX(-50%) translateY(-50%);
       @media screen and (max-width: 450px) {
-        display: none;
+        top: 86%;
+        left: 30.5%;
+        scale: 0.52;
       }
     }
     @keyframes expand {
@@ -211,8 +250,14 @@
       background: colors.$white;
       top: 50%;
       left: 150%;
+      border-radius: 15px;
       transform: translateX(-50%) translateY(-50%);
       animation: rotate 3s infinite linear;
+      @media screen and (max-width: 450px) {
+        width: 260px;
+        height: 150px;
+        top: 53%;
+      }
     }
 
     .drawing {
@@ -262,6 +307,10 @@
       line-height: 33px;
       font-weight: 300px;
       color: colors.$white;
+      @media screen and (max-width: 450px) {
+        top: 60%;
+        left: 85%;
+      }
     }
   }
 
