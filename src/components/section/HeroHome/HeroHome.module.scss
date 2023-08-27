@@ -12,13 +12,13 @@
   //   rgba(0, 139, 155, 1) 88.9%
   // );
   background-image: linear-gradient(
-    90.3deg,
-    #205072 0.1%,
-    rgba(0, 0, 0, 0.816) 24.6%,
+    180.3deg,
+    #205072 1%,
+    rgb(0, 0, 0) 10.6%,
     rgba(0, 139, 155, 1) 63.7%,
-    rgba(251, 140, 0, 1) 102%
+    rgba(251, 140, 0, 1) 80%
   );
-  background-size: 300% 300%;
+  background-size: 100% 100%;
   animation: gradientBG 58s ease infinite;
 
   @keyframes gradientBG {
