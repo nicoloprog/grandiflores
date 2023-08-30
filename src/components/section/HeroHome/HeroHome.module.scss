@@ -57,7 +57,7 @@
       flex-direction: column;
       color: #dbdbdb;
       padding: 2rem 1.5rem 2rem 1.5rem;
-      width: min(80%, 1000px);
+      width: min(90%, 1000px);
       margin-inline: auto;
       overflow: hidden;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -84,9 +84,9 @@
         @media screen and (max-width: 450px) {
           text-align: center;
           font-size: clamp(
-            27px,
+            28.5px,
             calc(1.40625rem + ((1vw - 3.6px) * 17.5)),
-            43px
+            44.5px
           );
           font-weight: 500;
           margin-top: 20px;
