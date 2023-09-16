@@ -38,6 +38,9 @@ const carouselOptions = {
 const HeroHome = () => {
   return (
     <div className={styles.component}>
+      <div className={styles.stars}></div>
+      <div className={styles.stars2}></div>
+      <div className={styles.stars3}></div>
       <div className={styles.content}>
         <div className={styles.welcomeCard}>
           <h2>Un équilibre entre le corps et l'esprit</h2>
