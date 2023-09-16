@@ -27,7 +27,7 @@
     width: 100%;
     place-items: left;
     align-items: center;
-    background: radial-gradient(#3a3a3a00 0%, #202838af 94%);
+    background: linear-gradient(180deg, #2c2c2c00 0%, #06080b32 94%);
     @media screen and (max-width: 450px) {
       min-height: 25px;
     }
