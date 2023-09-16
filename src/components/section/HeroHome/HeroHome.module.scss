@@ -692,7 +692,6 @@
         font-size: clamp(1rem, 0.6667rem + 1.3333vw, 2rem);
         margin-top: 0;
         @media screen and (max-width: 450px) {
-          text-align: center;
           font-size: clamp(
             28.5px,
             calc(1.40625rem + ((1vw - 3.6px) * 17.5)),
