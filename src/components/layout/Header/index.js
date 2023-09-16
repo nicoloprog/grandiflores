@@ -5,12 +5,56 @@ import Link from "next/link";
 import MainLogo from "@/images/mainLogo.png";
 import Mail from "@/images/email1.svg";
 import Telephone from "@/images/telephone1.svg";
+import Facebook from "@/images/facebookLink.png";
+import Twitter from "@/images/twitter.png";
+import Instagram from "@/images/instagram.png";
 import Phone from "components/icons/Phone";
 import cx from "classnames";
 
 export default function Header(props) {
   return (
     <div className={styles.component} {...props}>
+      <div className={styles.media}>
+        {" "}
+        <div className={styles.wrappermedia}>
+          <div className={styles.button}>
+            <div className={styles.icon}>
+              <i className={styles.fabfafacebookf}>
+                <Image
+                  className={styles.imageMedia}
+                  src={Facebook}
+                  alt="Picture of Grandiflores"
+                />
+              </i>
+            </div>
+            <span>Facebook</span>
+          </div>
+          <div className={styles.button}>
+            <div className={styles.icon}>
+              <i className={styles.fabfatwitter}>
+                <Image
+                  className={styles.imageMedia}
+                  src={Twitter}
+                  alt="Picture of Grandiflores"
+                />
+              </i>
+            </div>
+            <span>Twitter</span>
+          </div>
+          <div className={styles.button}>
+            <div className={styles.icon}>
+              <i className={styles.fabfainstagram}>
+                <Image
+                  className={styles.imageMedia}
+                  src={Instagram}
+                  alt="Picture of Grandiflores"
+                />
+              </i>
+            </div>
+            <span>Instagram</span>
+          </div>
+        </div>
+      </div>
       <div className={styles.wrapper}>
         <Image
           className={styles.logo}

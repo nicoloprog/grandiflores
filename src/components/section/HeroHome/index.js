@@ -44,10 +44,11 @@ const HeroHome = () => {
       <div className={styles.content}>
         <div className={styles.welcomeCard}>
           <h2>Un équilibre entre le corps et l'esprit</h2>
-          <p>
+          {/* <p>
             L'homéopathie Offre Des Solutions Naturelles Pour Vous Accompagner
             Vers Une Meilleure Santé !
-          </p>
+          </p> */}
+          <p>Votre Nouvelle Clinique En Homéopathie !</p>
           <Link href="#" className={styles.buttonBlue}>
             <span>Réserver une consultation</span>
           </Link>
