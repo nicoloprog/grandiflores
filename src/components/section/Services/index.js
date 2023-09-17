@@ -5,10 +5,12 @@ const Services = () => {
   return (
     <div className={styles.component}>
       <div className={styles.services}>
-        {/* <div className="container"> */}
+        <div className={styles.stars}></div>
+        <div className={styles.stars2}></div>
+        <div className={styles.stars3}></div>
         <div className={styles.cardRemedies}>
           <div className={styles.aboutUs}>
-            <h2>À propos de nous</h2>
+            <h1>À propos de nous</h1>
             <p>
               Bienvenue chez Grandiflores, votre partenaire de confiance dans
               votre quête du bien-être holistique grâce à l'homéopathie. Animés

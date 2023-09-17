@@ -43,12 +43,12 @@ const HeroHome = () => {
       <div className={styles.stars3}></div>
       <div className={styles.content}>
         <div className={styles.welcomeCard}>
-          <h2>Un équilibre entre le corps et l'esprit</h2>
+          <h2>Un équilibre entre le corps et l'esprit !</h2>
           {/* <p>
             L'homéopathie Offre Des Solutions Naturelles Pour Vous Accompagner
             Vers Une Meilleure Santé !
           </p> */}
-          <p>Votre Nouvelle Clinique En Homéopathie !</p>
+          <p>Votre Nouvelle Clinique En Homéopathie</p>
           <Link href="#" className={styles.buttonBlue}>
             <span>Réserver une consultation</span>
           </Link>
