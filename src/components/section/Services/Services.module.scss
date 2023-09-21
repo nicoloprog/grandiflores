@@ -48,8 +48,8 @@
       top: -200px;
       width: 68%;
       height: 500px;
-      background-color: rgba(106, 106, 106, 0.212);
-      color: #ffffff9a;
+      background-color: rgba(218, 218, 218, 0.434);
+      color: #0000009a;
       border-radius: 15px;
       padding: 10px 28px;
       font-family: "Poppins", sans-serif;
@@ -126,7 +126,7 @@
       border-radius: 5px;
       @media screen and (max-width: 450px) {
         top: 86.5%;
-        left: 24%;
+        left: 24.5%;
         scale: 0.4;
       }
     }
@@ -274,7 +274,7 @@
       transform: translateX(-50%) translateY(-50%);
       @media screen and (max-width: 450px) {
         top: 86%;
-        left: 30%;
+        left: 31.5%;
         scale: 0.425;
       }
     }
