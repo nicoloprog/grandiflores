@@ -281,7 +281,7 @@
       top: 65%;
       margin-top: 40px;
       left: 67.5%;
-      animation: expand 2s ease-in-out infinite;
+      animation: expand 2.05s ease-in-out infinite;
       transform: translateX(-50%) translateY(-50%);
       @media screen and (max-width: 450px) {
         top: 86%;
@@ -296,7 +296,7 @@
       }
 
       50% {
-        transform: scale(0.85);
+        transform: scale(0.8);
       }
     }
 
