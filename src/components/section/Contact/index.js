@@ -12,15 +12,6 @@ const Contact = () => {
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
               accusantium?"
             </p>
-            <ul className={styles.icons}>
-              <ion-icon className={styles.icon} name="logo-facebook"></ion-icon>
-              <ion-icon
-                className={styles.icon}
-                name="logo-instagram"
-              ></ion-icon>
-              <ion-icon className={styles.icon} name="logo-twitter"></ion-icon>
-              <ion-icon className={styles.icon} name="logo-youtube"></ion-icon>
-            </ul>
           </div>
           <div className={styles.aside}>
             <ul className={styles.category}>
