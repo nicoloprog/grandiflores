@@ -61,7 +61,7 @@
 
       @media screen and (max-width: 450px) {
         width: 85%;
-        font-size: clamp(8px, calc(0.625rem + ((1vw - 2.8px) * 5.1852)), 14px);
+        font-size: clamp(10px, calc(0.625rem + ((1vw - 2.8px) * 5.1852)), 16px);
         top: 35px;
         height: 525px;
         box-shadow: 7px 10px rgba(7, 7, 7, 0.378);
@@ -73,7 +73,7 @@
       }
 
       p {
-        font-size: small;
+        font-size: 14px;
       }
     }
 
