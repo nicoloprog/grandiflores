@@ -28,6 +28,17 @@
         height: 300px;
       }
     }
+    .remedies {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 400px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0), black);
+      @media screen and (max-width: 450px) {
+        height: 450px;
+      }
+    }
+
     @keyframes gradientBG {
       0% {
         background-position: 0% 50%;
@@ -73,7 +84,7 @@
       }
 
       p {
-        font-size: 14px;
+        font-size: 15.5px;
       }
     }
 

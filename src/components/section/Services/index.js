@@ -40,9 +40,8 @@ const Services = () => {
           </div>
           <div className={styles.shadow2}></div>
         </div>
-        {/* </div> */}
+        <div className={styles.remedies}></div>
       </div>
-      <div className={styles.remedies}></div>
     </div>
   );
 };
