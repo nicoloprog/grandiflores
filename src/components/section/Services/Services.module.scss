@@ -71,7 +71,7 @@
       z-index: 1000;
 
       @media screen and (max-width: 450px) {
-        width: 85%;
+        width: 90%;
         font-size: clamp(10px, calc(0.625rem + ((1vw - 2.8px) * 5.1852)), 16px);
         top: 35px;
         height: 525px;
