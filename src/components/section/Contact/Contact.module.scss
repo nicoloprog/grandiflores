@@ -5,22 +5,26 @@
   .contact {
     position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     top: 220vh;
     background: linear-gradient(90deg, #b6babc, #cdcdcd, #b6babc);
     z-index: 4;
   }
 
+  .responsiveMap iframe {
+    position: relative;
+    overflow: hidden;
+    height: 72vh;
+  }
   .footer {
-    z-index: 0;
     max-width: 100%;
     background-color: black;
     font: 0.25rem helvetica, sans-serif;
     color: white;
     display: flex;
     justify-content: center;
-    padding: 1rem 2%;
+    padding: 1rem 2% 6.5rem 2%;
 
     .top {
       width: 100%;

@@ -5,6 +5,17 @@ const Contact = () => {
   return (
     <div className={styles.component}>
       <div className={styles.contact}>
+        <div className={styles.responsiveMap}>
+          <iframe
+            class="gmap_iframe"
+            width="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=2050&amp;height=650&amp;hl=fr&amp;q= Les Pays D'en Haut (Québec)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
         <div className={styles.footer}>
           <div className={styles.top}>
             <h2>Quota</h2>
