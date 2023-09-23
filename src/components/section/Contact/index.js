@@ -5,15 +5,23 @@ const Contact = () => {
   return (
     <div className={styles.component}>
       <div className={styles.contact}>
+        <h2>Nous Couvrons La Rive Nord De Montreal</h2>
+        <div className={styles.timeTable}>
+          <h3>Horaire</h3>
+          <p>Lundi *Fermé*</p>
+          <p>Mardi *Fermé*</p>
+          <p>Mercredi 10h-18h</p>
+          <p>Jeudi 10h-18h</p>
+          <p>Vendredi 10h-18h</p>
+          <p>Samedi 12h-20h</p>
+          <p>Dimanche 12h-18h</p>
+        </div>
         <div className={styles.responsiveMap}>
           <iframe
             class="gmap_iframe"
-            width="100%"
             frameborder="0"
             scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            src="https://maps.google.com/maps?width=2050&amp;height=650&amp;hl=fr&amp;q= Les Pays D'en Haut (Québec)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=2050&amp;height=650&amp;hl=fr&amp;q= Les Pays D'en Haut (Québec)&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
         <div className={styles.footer}>
