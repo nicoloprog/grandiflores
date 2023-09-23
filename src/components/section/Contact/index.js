@@ -5,9 +5,7 @@ const Contact = () => {
   return (
     <div className={styles.component}>
       <div className={styles.contact}>
-        <h2>
-          Nous Couvrons La Rive Nord De Montréal Et La Région Des Laurentides
-        </h2>
+        <h2>Couvre La Rive Nord De Montréal Et La Région Des Laurentides</h2>
         <div className={styles.timeTable}>
           <h3>Horaire</h3>
           <p>Lundi: 10h à 18h</p>
