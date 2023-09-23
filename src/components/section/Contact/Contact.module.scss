@@ -6,10 +6,11 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     top: 220vh;
+    width: 100%;
     background: linear-gradient(90deg, #cdc4ff, #d6dcfa, #eabaec);
-    padding-top: 60%;
+    padding-top: 70%;
     z-index: 4;
 
     &:after {
@@ -24,45 +25,42 @@
         height: 100%;
       }
     }
-  }
 
-  h2 {
-    position: absolute;
-    top: 8%;
-    width: 80%;
-    font-size: 25px;
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
-    z-index: 100;
-  }
+    h2 {
+      position: absolute;
+      top: 2%;
+      width: 80%;
+      font-size: 32px;
+      align-self: center;
+      color: whitesmoke;
+      font-family: "Poppins", sans-serif;
+      z-index: 100;
+    }
 
-  .timeTable {
-    position: absolute;
-    top: 28%;
-    left: 7.5%;
-    width: 35%;
-    font-size: 12.55px;
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
-    z-index: 100;
+    .timeTable {
+      position: absolute;
+      top: 30%;
+      left: 7.5%;
+      width: 35%;
+      font-size: 12.55px;
+      color: whitesmoke;
+      font-family: "Poppins", sans-serif;
+      z-index: 100;
 
-    h3 {
-      text-decoration: underline;
-      font-size: 17.5px;
+      h3 {
+        text-decoration: underline;
+        font-size: 17.5px;
+      }
+    }
+
+    iframe {
+      border-radius: 30px 0 0 30px;
+      width: 50%;
+      height: 50vh;
+      z-index: 1000;
+      margin-bottom: 35%;
     }
   }
-
-  .responsiveMap iframe {
-    position: relative;
-    width: 65%;
-    height: 50vh;
-    border-radius: 30px 0 0 30px;
-    left: 45%;
-    margin-bottom: 50px;
-    overflow: hidden;
-    z-index: 10000;
-  }
-
   .footer {
     max-width: 100%;
     background-color: black;

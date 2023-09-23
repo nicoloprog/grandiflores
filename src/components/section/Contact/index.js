@@ -16,14 +16,12 @@ const Contact = () => {
           <p>Samedi 12h-20h</p>
           <p>Dimanche 12h-18h</p>
         </div>
-        <div className={styles.responsiveMap}>
-          <iframe
-            class="gmap_iframe"
-            frameborder="0"
-            scrolling="no"
-            src="https://maps.google.com/maps?width=2050&amp;height=650&amp;hl=fr&amp;q= Les Pays D'en Haut (Québec)&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          ></iframe>
-        </div>
+        <iframe
+          class="gmap_iframe"
+          frameborder="0"
+          scrolling="no"
+          src="https://maps.google.com/maps?width=350&amp;height=350&amp;hl=fr&amp;q= Les Pays D'en Haut (Québec)&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
         <div className={styles.footer}>
           <div className={styles.top}>
             <h2>Quota</h2>
