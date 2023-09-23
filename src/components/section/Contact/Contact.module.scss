@@ -10,7 +10,7 @@
     top: 220vh;
     width: 100%;
     background: linear-gradient(90deg, #cdc4ff, #d6dcfa, #eabaec);
-    padding-top: 80%;
+    padding-top: 90%;
     z-index: 4;
 
     &:after {
@@ -30,6 +30,7 @@
       position: absolute;
       top: 5%;
       width: 80%;
+      text-align: center;
       font-size: 32px;
       align-self: center;
       color: whitesmoke;
@@ -42,7 +43,7 @@
       top: 32.5%;
       left: 7.5%;
       width: 35%;
-      font-size: 12.55px;
+      font-size: 13px;
       color: whitesmoke;
       font-family: "Poppins", sans-serif;
       z-index: 100;
@@ -62,7 +63,7 @@
     }
   }
   .footer {
-    max-width: 100%;
+    width: 100%;
     background-color: black;
     font: 0.25rem helvetica, sans-serif;
     color: white;
@@ -82,19 +83,21 @@
       h2 {
         position: relative;
         text-transform: uppercase;
+        font-size: 15px;
       }
 
       p {
         font-style: italic;
         line-height: 1.2;
-        color: var(--light);
+        color: whitesmoke;
+        margin-top: -20%;
+        padding-left: 20%;
       }
 
       .icon {
         font-size: 0.8rem;
         padding: 0;
         cursor: pointer;
-        color: var(--accent);
       }
     }
 

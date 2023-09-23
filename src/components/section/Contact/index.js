@@ -6,17 +6,17 @@ const Contact = () => {
     <div className={styles.component}>
       <div className={styles.contact}>
         <h2>
-          Nous Couvrons La Rive Nord De Montreal Et La Région Des Laurentides
+          Nous Couvrons La Rive Nord De Montréal Et La Région Des Laurentides
         </h2>
         <div className={styles.timeTable}>
           <h3>Horaire</h3>
-          <p>Lundi *Fermé*</p>
-          <p>Mardi *Fermé*</p>
-          <p>Mercredi 10h-18h</p>
-          <p>Jeudi 10h-18h</p>
-          <p>Vendredi 10h-18h</p>
-          <p>Samedi 12h-20h</p>
-          <p>Dimanche 12h-18h</p>
+          <p>Lundi: 10h à 18h</p>
+          <p>Mardi: 10h à 18h</p>
+          <p>Mercredi: 10h à 18h</p>
+          <p>Jeudi: 10h à 18h</p>
+          <p>Vendredi: 10h à 18h</p>
+          <p>Samedi: 12h à 20h</p>
+          <p>Dimanche: 12h à 20h</p>
         </div>
         <iframe
           class="gmap_iframe"
@@ -26,7 +26,7 @@ const Contact = () => {
         ></iframe>
         <div className={styles.footer}>
           <div className={styles.top}>
-            <h2>Quota</h2>
+            <h2>❂Grandiflores</h2>
             <p>
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
               accusantium?"
