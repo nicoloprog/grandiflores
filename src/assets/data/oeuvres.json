@@ -4,50 +4,64 @@
       "id": 0,
       "titre": "Homéopathie",
       "description": "L'homéopathie est utilisée pour une large gamme de conditions de santé, allant des troubles aigus aux problèmes chroniques, en se concentrant sur l'équilibre complet de l'individu. Les méthodes de dilutions permettent de renforcer l'effet curatif tout en minimisant les effets secondaires.  ",
-      "imagePrincipal": "pipette.png",
-      "prix": 150
+      "imagePrincipal": "homeo2.png",
+      "descriptions": "L’homéopathie a été inventée par Samuel Hahnemann . Selon Hahnemann la guérison ne peut se faire que par la réaction d’une force dans l’organisme du corps humain qui protège et guérit des maladies, elle est présentée comme la force vitale. Le principe des médicaments homéopathiques est de diluer une substance ou des substances possédant des propriétés curatives pour des symptômes humains. Ses substances peuvent provenir d’animaux, de végétaux ou de minéraux. Le principe utilisé est la loi de similitude, nommée aussi la loi des semblables, pour un médicament. Cette méthode consiste à produire des symptômes sur quelqu'un en santé, mais à guérir ces mêmes symptômes sur quelqu'un de malade. Le processus des remèdes homéopathiques est d’être diluer et dynamiser en secouant vigoureusement, pour ensuite être prescrit en fonction des symptômes présents et précis du malade. Tout débute par le mélange de la substance avec de l’eau et de l’alcool afin de produire une teinture mère qui devient la souche homéopathique. Ensuite la substance est diluée par des mélanges consécutifs. De plus, l’imprégnation du médicament sur des granules est populaire aujourd’hui. La méthode thérapeutique utilisée par l’homéopathie consiste à administrer des doses très faibles qui procurent le même effet curatif sans avoir les effets négatifs et toxiques des substances médicamenteuses.  "
     },
     {
       "id": 1,
       "titre": "Gemmothérapie",
       "description": "La gemmothérapie est une approche de médecine douce qui utilise les propriétés thérapeutiques des bourgeons et des jeunes pousses de certaines plantes. ",
-      "imagePrincipal": "berries.png",
-      "prix": 150
+      "imagePrincipal": "gemmo.png",
+      "descriptions": "La gemmothérapie utilise les bourgeons et les jeunes pousses d’arbres et d’arbustes. Ces parties de la plante sont récoltées au printemps, à un moment clé de leur cycle de croissance naturel, et sont préparées fraîches dans une solution d’eau, d’alcool et de glycérine. Les bourgeons et les jeunes pousses sont considérés par les praticiens de la gemmothérapie comme ayant une énergie et une vitalité supérieures à celles des plantes adultes. Ils sont censés contenir toutes les propriétés de l’arbre ou de l’arbuste dont ils proviennent, y compris les bienfaits pour la santé de la fleur, du fruit, des feuilles et de l’écorce. La gemmothérapie est utilisée pour diverses affections, notamment les problèmes de peau, les troubles respiratoires et les problèmes digestifs. Cependant, comme pour toute forme de thérapie alternative, il est recommandé de consulter un professionnel de la santé avant de commencer un traitement par gemmothérapie."
     },
     {
       "id": 2,
-      "titre": "Phytothérapie",
-      "description": " ",
-      "imagePrincipal": "medicine.png",
-      "prix": 150
+      "titre": "Fleurs de Bach",
+      "description": "Si chaque émotion pouvait être liée à une fleur spécifique, quelle fleur représenterait votre état d’esprit actuel ? C’est la question que pose la thérapie par les fleurs de Bach, une forme de médecine naturelle qui utilise les fleurs pour gérer les émotions et le stress.",
+      "imagePrincipal": "bach.png",
+      "descriptions": "Les fleurs de Bach sont une forme de thérapie naturelle utilisée pour gérer les émotions et le stress. Elles ont été découvertes par le Dr Edward Bach, un médecin britannique, dans les années 1930. Il a identifié 38 remèdes, chacun associé à une émotion ou un état d’esprit spécifique.Les fleurs de Bach sont préparées à partir de fleurs sauvages et d’eau de source. Le mélange est ensuite dilué et conservé dans une solution d’alcool de brandy. Les remèdes sont généralement pris sous forme de gouttes sous la langue ou ajoutés à l’eau à boire. Chaque remède est conçu pour traiter une émotion ou un état d’esprit différent. Par exemple, le remède “Mimulus” est utilisé pour traiter la peur de choses connues, tandis que “Star of Bethlehem” est utilisé pour le choc ou le traumatisme. Comme pour toute forme de médecine alternative, il est recommandé de consulter un professionnel de la santé avant de commencer un traitement avec les fleurs de Bach. Il est également important de les utiliser avec prudence."
     },
     {
       "id": 3,
-      "titre": "Oligothérapie",
-      "description": " ",
-      "imagePrincipal": "mine-cart.png",
-      "prix": 150
+      "titre": "Sels de Shuesslers",
+      "description": "En 1790, Samuel Hahnemann expérimente sur lui-même ses premiers essais sur le quinquina. Cettedate est à retenir, puisqu'il croit qu'une substance capable de produire des symptômes chez un individu sain peut guérir ses mêmes symptômes chez unindividu malade et c'est pour la première fois dans l'histoire de la médecine, quel’expérimentation est retenue comme le véritable critère de la valeur desmoyens de guérir et commeun principe essentiel de la thérapeutique.",
+      "imagePrincipal": "sels.png",
+      "descriptions": "Les sels de Schüssler, également connus sous le nom de thérapie biochimique de Schüssler, ont été découvert au 19ème siècle par le Dr Wilhelm Heinrich Schüssler. Selon Schüssler, les déséquilibres dans douze sels minéraux vitaux, ou “sels tissulaires”, sont à l’origine de la plupart des maladies.Ces douze sels minéraux  inorganiques (dépourvus de carbone) comprennent des substances comme le phosphate de calcium, le phosphate de fer et le sulfate de potassium. Selon Schüssler, ces sels sont essentiels au fonctionnement du corps et que leur déséquilibre peut causer des problèmes de santé.Les sels de Schüssler sont généralement pris sous forme de comprimés qui se dissolvent sous la langue. Ils sont utilisés pour traiter une variété de conditions, y compris les troubles de la peau, les problèmes digestifs et les troubles du sommeil."
     },
     {
       "id": 4,
-      "titre": "Supports Nutritifs",
-      "description": " ",
-      "imagePrincipal": "salad.png",
-      "prix": 150
+      "titre": "Oligothérapie",
+      "description": "En 1790, Samuel Hahnemann expérimente sur lui-même ses premiers essais sur le quinquina. Cettedate est à retenir, puisqu'il croit qu'une substance capable de produire des symptômes chez un individu sain peut guérir ses mêmes symptômes chez unindividu malade et c'est pour la première fois dans l'histoire de la médecine, quel’expérimentation est retenue comme le véritable critère de la valeur desmoyens de guérir et commeun principe essentiel de la thérapeutique.",
+      "imagePrincipal": "oligo.png",
+      "descriptions": "L’oligothérapie est une forme de médecine alternative qui utilise les oligo-éléments, de petits minéraux présents en quantités infimes dans le corps, pour maintenir et améliorer la santé. Les oligo-éléments comprennent des éléments tels que le zinc, le cuivre, le magnésium et le sélénium.En oligothérapie, on pense que même une légère carence en l’un de ces oligo-éléments peut perturber le fonctionnement optimal du corps et contribuer à la maladie. Par conséquent, l’oligothérapie vise à rétablir l’équilibre des oligo-éléments dans le corps en utilisant de petites doses de ces minéraux.Les oligo-éléments sont généralement administrés sous forme de comprimés ou de gouttes et sont utilisés pour traiter une variété de conditions, y compris les troubles immunitaires, les problèmes digestifs et les troubles du sommeil. Comme pour toute forme de thérapie alternative, il est recommandé de consulter un professionnel de la santé avant de commencer un traitement par oligothérapie. Il est également important de l’utiliser avec modération."
     },
     {
       "id": 5,
-      "titre": "Fleurs de bach",
-      "description": " ",
-      "imagePrincipal": "bolle.png",
-      "prix": 150
+      "titre": "Phytothérapie",
+      "description": "Si vous pouviez vous promener dans un jardin et choisir une plante pour guérir votre maladie, le feriez-vous ? C’est l’idée fondamentale de la phytothérapie, une forme de médecine qui utilise les plantes et leurs extraits pour traiter une variété de problèmes de santé.",
+      "imagePrincipal": "phytotherapie.png",
+      "descriptions": "La phytothérapie utilise les plantes et leurs extraits pour traiter une variété de problèmes de santé. Le terme “phytothérapie” vient des mots grecs “phyto”, qui signifie plante, et “thérapie”, qui signifie traitement.En phytothérapie, les plantes sont souvent utilisées dans leur ensemble plutôt que d’isoler certains composants, car on pense que les différents composants de la plante peuvent travailler ensemble pour améliorer l’efficacité du traitement. Les plantes peuvent être utilisées sous diverses formes, y compris les tisanes, les teintures, les capsules et les crèmes.La phytothérapie est utilisée pour traiter une variété de conditions, y compris les troubles digestifs, les problèmes de peau, les troubles du sommeil et les problèmes respiratoires. Cependant, il est important de noter que bien que certaines personnes trouvent la phytothérapie bénéfique, elle doit être utilisée avec prudence et sous la supervision d’un professionnel de la santé, car certaines plantes peuvent avoir des effets secondaires ou interagir avec d’autres médicaments."
     },
     {
       "id": 6,
       "titre": "Organothérapie",
-      "description": " ",
-      "imagePrincipal": "endocrine.png",
-      "prix": 150
+      "description": "En 1790, Samuel Hahnemann expérimente sur lui-même ses premiers essais sur le quinquina. Cettedate est à retenir, puisqu'il croit qu'une substance capable de produire dessymptômes chez un individu sain peut guérir ses mêmes symptômes chez unindividu malade et c'est pour la première fois dans l'histoire de la médecine, quel’expérimentation est retenue comme le véritable critère de la valeur desmoyens de guérir et commeun principe essentiel de la thérapeutique.",
+      "imagePrincipal": "organo.png",
+      "descriptions": "L’organothérapie, également connue sous le nom de thérapie par les organes, est une forme de médecine alternative qui utilise les extraits d’organes animaux pour traiter une variété de problèmes de santé. Elle est basée sur le principe de l’homéopathie, qui soutient que le traitement d’une maladie peut être effectué en utilisant des substances dérivées de l’organe ou du tissu où la maladie a pris naissance. Dans l’organothérapie, les extraits d’organes sont généralement préparés à partir d’organes d’animaux tels que les bovins ou les porcs. L’organothérapie est utilisée pour traiter une variété de conditions, y compris les troubles hormonaux, les problèmes immunitaires et les troubles digestifs. Comme pour toute forme de thérapie alternative, il est recommandé de consulter un professionnel de la santé avant de commencer un traitement par organothérapie. Il est également important de l’utiliser avec prudence."
+    },
+    {
+      "id": 7,
+      "titre": "Supports Nutritifs",
+      "description": "Si la nourriture est notre carburant, alors le soutien nutritionnel est comme un réglage fin de notre moteur. Il s’agit d’une approche thérapeutique qui vise à fournir aux patients les nutriments essentiels dont ils ont besoin pour maintenir ou améliorer leur état de santé.",
+      "imagePrincipal": "support.png",
+      "descriptions": "Le soutien nutritionnel est une approche thérapeutique qui vise à fournir aux patients les nutriments essentiels dont ils ont besoin pour maintenir ou améliorer leur état de santé. Il peut être utilisé pour aider les personnes qui sont incapables de consommer suffisamment de nourriture par voie orale, qui ont des besoins nutritionnels accrus en raison d’une maladie ou d’une blessure, ou qui ont des troubles de l’alimentation. Le soutien nutritionnel peut prendre plusieurs formes, y compris les régimes alimentaires spéciaux, les suppléments nutritionnels oraux, l’alimentation entérale (par un tube dans l’estomac ou l’intestin) et l’alimentation parentérale (par une veine). Le choix de la forme de soutien nutritionnel dépend de plusieurs facteurs, y compris l’état de santé général du patient, la présence de maladies ou de troubles spécifiques, et la capacité du patient à consommer et à absorber les nutriments."
+    },
+    {
+      "id": 8,
+      "titre": "Aromathérapie",
+      "description": "L’huile essentielle est considérée comme l’extrait de plante la plus puissante utilisée dans un cadre thérapeutique ou cosmétique.C'est avec plaisir que je vous conseillerai sur les différentes utilisations des huiles essentielles.",
+      "imagePrincipal": "huileEssentielle.png",
+      "descriptions": "L’huile essentielle peut être employée de différentes manières. Tout dépend de sa composition et des propriétés de la plante à partir de laquelle elle a été confectionnée. Le résultat escompté est également un critère essentiel qui détermine la bonne méthode d’administration de l’huile essentielle."
     }
   ]
 }
